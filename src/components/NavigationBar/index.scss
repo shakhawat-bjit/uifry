@@ -1,0 +1,44 @@
+@use "../../app/styles/colors" as *;
+
+.navbar {
+  // background-color: $primary;
+  // padding: 20px;
+  font-family: "Plus Jakarta Sans";
+}
+
+.navbar__head--text {
+  background-color: $primary1;
+  color: $bodyText2;
+  font-size: 14px;
+  text-align: center;
+  padding-top: 13px;
+  padding-bottom: 12px;
+  border-top-right-radius: 50px;
+  border-top-left-radius: 50px;
+}
+
+.navbar__body {
+  margin-left: 80px;
+  margin-right: 80px;
+  display: flex;
+  align-items: center;
+}
+
+.navbar__links {
+  margin-left: 88px;
+  .navbar__link {
+    margin-right: 80px;
+    text-decoration: none;
+    color: $heading;
+    font-weight: 700;
+    font-size: 14px;
+    height: 17.64px;
+  }
+  .navbar__link:last-child {
+    margin-right: 0px;
+  }
+}
+
+.navbar__contact {
+  margin-left: 336px;
+}
