@@ -7,11 +7,11 @@ type Props = {};
 
 export default function FeatureContent({}: Props) {
   return (
-    <div className="feature__text">
-      <h2 className="feature__heading">
+    <div className="feature--content">
+      <h2 className="feature--content__heading">
         Let your business thrive under our supervision
       </h2>
-      <p className="feature__description">
+      <p className="feature--content__description">
         Launch a business today with our help and get it done with amazing
         launch features, websites and more with uifry. We help business like
         yours thrive every day and beyond.
@@ -19,20 +19,20 @@ export default function FeatureContent({}: Props) {
         <br />
         We are making every business grow!
       </p>
-      <div className="feature__checks">
-        <div className="feature__check">
+      <div className="feature--content__checks">
+        <div className="feature--content__check">
           <Button className=" icon-button--sm--primary">
             <Image src={tick.src} height={24} width={24} alt=">" />
           </Button>
-          <span className="feature__check-text">
+          <span className="feature--content__check-text">
             Super useful and easy to use interface
           </span>
         </div>
-        <div className="feature__check">
+        <div className="feature--content__check">
           <Button className=" icon-button--sm--primary">
             <Image src={tick.src} height={24} width={24} alt=">" />
           </Button>
-          <span className="feature__check-text">
+          <span className="feature--content__check-text">
             Easiest way to grow your business in days
           </span>
         </div>

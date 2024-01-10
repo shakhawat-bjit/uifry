@@ -1,0 +1,25 @@
+@use "../../app//styles/colors" as *;
+
+.update-card__body {
+  margin-top: 20px;
+}
+
+.update-card__body__tag {
+  font-family: "Inter";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  color: $color-midnight-blue;
+}
+
+.update-card__body__title {
+  margin-top: 26px;
+  font-family: "Plus Jakarta Sans";
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 32px;
+  color: $color-azulado;
+}
+.update-card__button {
+  margin-top: 26px;
+}

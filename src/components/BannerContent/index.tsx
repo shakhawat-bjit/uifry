@@ -23,7 +23,7 @@ export default function BannerContent({}: Props) {
       </p>
       <div className="banner__buttons">
         <Button className="banner__button btn-md--primary">Contact Now </Button>
-        <Button className=" banner__button icon-button--sm-light">
+        <Button className=" banner__button icon-button--sm-light button--border--bride-blush">
           <Image src={arrow.src} height={24} width={24} alt=">" />
         </Button>
         <Button className="banner__button btn-md-light">

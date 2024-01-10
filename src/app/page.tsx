@@ -10,6 +10,9 @@ import FeatureList from "@/components/FeatureList";
 import BusinessBannerForm from "@/components/ContactForm";
 import Feature from "@/components/Feature";
 import ContactForm from "@/components/ContactForm";
+import Updates from "@/components/Updates";
+
+import Business from "@/components/Business";
 
 export default function Home() {
   return (
@@ -20,6 +23,8 @@ export default function Home() {
       <Feature />
       <FeatureList />
       <ContactForm />
+      <Updates />
+      <Business />
       <Footer />
     </main>
   );

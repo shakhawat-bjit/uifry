@@ -1,7 +1,7 @@
 @use "../../app/styles/colors" as *;
-.contact-form {
+.business-image {
 }
-.contact-form-image__box {
+.business-image__box {
   width: 475px;
   height: 528px;
   border-radius: 5px;
@@ -9,28 +9,28 @@
   position: relative;
 }
 
-.contact-form-image__picture {
+.business-image__picture {
   //   height: 608px;
   //   height: 590px;
   position: absolute;
-  left: 48px;
+  left: 55px;
   bottom: 0px;
 }
 
-.contact-form-image__line {
+.business-image__line {
   position: absolute;
-  left: -79px;
-  top: 142px;
+  right: -52.8px;
+  top: 77px;
 }
 
-.contact-form-image__fire {
+.business-image__star {
   position: absolute;
-  right: -31.8px;
-  top: 41px;
+  left: 31px;
+  top: -38px;
 }
 
-.contact-form-image__stat {
+.business-image__stat {
   position: absolute;
-  right: -125px;
-  bottom: 94px;
+  right: -129px;
+  bottom: 66px;
 }
