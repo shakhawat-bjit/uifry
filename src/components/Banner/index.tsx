@@ -1,14 +1,14 @@
 import React from "react";
 import "./index.scss";
-import BannerText from "./BannerText";
-import BannerImage from "./BannerImage";
+import BannerImage from "../BannerImage";
+import BannerContent from "../BannerContent";
 
 type Props = {};
 
 export default function Banner({}: Props) {
   return (
     <div className="banner">
-      <BannerText />
+      <BannerContent />
       <BannerImage />
     </div>
   );

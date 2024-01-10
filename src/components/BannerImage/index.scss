@@ -1,11 +1,14 @@
-@use "../../../app/styles/colors" as *;
+@use "../../app/styles/fonts" as *;
+@use "../../app/styles/colors" as *;
+
 .banner__image {
 }
+
 .banner__image-box {
   width: 568px;
   height: 590px;
   border-radius: 5px;
-  background-color: $primary;
+  background-color: $color-bride-blush;
   margin-left: 123px;
   position: relative;
 }

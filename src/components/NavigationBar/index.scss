@@ -1,14 +1,14 @@
 @use "../../app/styles/colors" as *;
 
 .navbar {
-  // background-color: $primary;
+  // background-color: $color-bride-blush;
   // padding: 20px;
   font-family: "Plus Jakarta Sans";
 }
 
 .navbar__head--text {
-  background-color: $primary1;
-  color: $light;
+  background-color: $color-sage-violet;
+  color: $color-white;
   font-size: 14px;
   text-align: center;
   padding-top: 13px;
@@ -27,17 +27,17 @@
 
 .navbar__links {
   margin-left: 88px;
-  .navbar__link {
-    margin-right: 80px;
-    text-decoration: none;
-    color: $heading;
-    font-weight: 700;
-    font-size: 14px;
-    height: 17.64px;
-  }
-  .navbar__link:last-child {
-    margin-right: 0px;
-  }
+}
+.navbar__link {
+  margin-right: 80px;
+  text-decoration: none;
+  color: $color-azulado;
+  font-weight: 700;
+  font-size: 14px;
+  height: 17.64px;
+}
+.navbar__link:last-child {
+  margin-right: 0px;
 }
 
 .navbar__contact {

@@ -1,9 +1,9 @@
 @use "../../app/styles/colors" as *;
 @use "../../app/styles/fonts" as *;
 
-.btn-md-primary {
-  background-color: $primary;
-  color: $dark;
+.btn-md--primary {
+  background-color: $color-bride-blush;
+  color: $color-midnight-blue;
   border-radius: 5px;
   padding: 16px 24px;
   font-family: "Plus Jakarta Sans";
@@ -13,9 +13,25 @@
   text-transform: capitalize;
 }
 
+.btn--lg--primary {
+  background-color: $color-bride-blush;
+  color: $color-midnight-blue;
+  border-radius: 5px;
+  padding: 16px 24px;
+  font-family: "Plus Jakarta Sans";
+  font-weight: 700;
+  line-height: 17.5px;
+  border: 0px;
+  text-transform: capitalize;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .btn-md-light {
-  background-color: $light;
-  color: $dark;
+  background-color: $color-white;
+  color: $color-midnight-blue;
   border-radius: 5px;
   padding: 16px 24px;
   font-family: "Plus Jakarta Sans";
@@ -24,19 +40,19 @@
   border: 0px;
 }
 
-.iconBtn-sm-light {
-  background-color: $light;
+.icon-button--sm-light {
+  background-color: $color-white;
   border-radius: 5px;
   padding: 13px 12px;
-  border: 1px solid $primary;
+  border: 1px solid $color-bride-blush;
 
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.iconBtn-sm-primary {
-  background-color: $primary;
+.icon-button--sm--primary {
+  background-color: $color-bride-blush;
   border-radius: 5px;
   padding: 13px 12px;
   border: 0px;

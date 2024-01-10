@@ -37,7 +37,7 @@ export default function NavigationBar({}: Props) {
           </Link>
         </div>
         <div className="navbar__contact">
-          <Button className="btn-md-primary">Contact Now</Button>
+          <Button className="btn-md--primary">Contact Now</Button>
         </div>
       </div>
     </div>

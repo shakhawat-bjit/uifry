@@ -6,9 +6,10 @@ import Banner from "@/components/Banner";
 
 import Clients from "@/components/Clients";
 import Footer from "@/components/Footer";
-import BusinessBanner from "@/components/BusinessBanner";
 import FeatureList from "@/components/FeatureList";
-import BusinessBannerForm from "@/components/BusinessBannerForm";
+import BusinessBannerForm from "@/components/ContactForm";
+import Feature from "@/components/Feature";
+import ContactForm from "@/components/ContactForm";
 
 export default function Home() {
   return (
@@ -16,9 +17,9 @@ export default function Home() {
       <NavigationBar />
       <Banner />
       <Clients />
-      <BusinessBanner />
+      <Feature />
       <FeatureList />
-      <BusinessBannerForm />
+      <ContactForm />
       <Footer />
     </main>
   );

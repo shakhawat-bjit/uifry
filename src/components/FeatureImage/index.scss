@@ -1,15 +1,15 @@
-@use "../../../app/styles/colors" as *;
-.businessBanner__image {
+@use "../../app/styles/colors" as *;
+.feature__image {
 }
-.businessBanner__image-box {
+.feature__image-box {
   width: 475px;
   height: 528px;
   border-radius: 5px;
-  background-color: $gray;
+  background-color: $color-lavender-gray;
   position: relative;
 }
 
-.businessBanner__image-picture {
+.feature__image-picture {
   //   height: 608px;
   //   height: 590px;
   position: absolute;
@@ -17,19 +17,19 @@
   bottom: 0px;
 }
 
-.businessBanner__image-line {
+.feature__image-line {
   position: absolute;
   left: 371px;
   top: 66px;
 }
 
-.businessBanner__image-star {
+.feature__image-star {
   position: absolute;
   left: 60px;
   top: -40px;
 }
 
-.businessBanner__image-stat {
+.feature__image-stat {
   position: absolute;
   left: 322px;
   top: 224px;

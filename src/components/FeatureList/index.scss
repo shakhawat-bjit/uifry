@@ -1,32 +1,33 @@
 @use "../../app/styles/colors" as *;
 
-.featureList {
+.feature-list {
   margin-top: 101.11px;
   margin-left: 78px;
   margin-right: 80px;
   padding: 92px 111.63px 94px 110px;
   display: flex;
-  background-color: $primary1;
+  background-color: $color-sage-violet;
   border-radius: 5px;
+}
 
-  &__feature {
-    margin-right: 60px;
-    display: flex;
-    align-items: center;
-    &-text {
-      margin-left: 20px;
-      width: 244px;
-      height: 51px;
+.feature-list:last-child {
+  margin-right: 0px;
+}
 
-      font-family: "Plus Jakarta Sans";
-      font-size: 16px;
-      font-weight: 400;
-      line-height: 28px;
-      color: $light;
-    }
-  }
+.feature-list__feature {
+  margin-right: 60px;
+  display: flex;
+  align-items: center;
+}
 
-  &__feature:last-child {
-    margin-right: 0px;
-  }
+.feature-list__feature__text {
+  margin-left: 20px;
+  width: 244px;
+  height: 51px;
+
+  font-family: "Plus Jakarta Sans";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  color: $color-white;
 }

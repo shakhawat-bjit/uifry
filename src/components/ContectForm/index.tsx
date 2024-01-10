@@ -1,6 +1,6 @@
 import React from "react";
-import BusinessBannerFormText from "./BusinessBannerFormText";
-import BusinessBannerFormImage from "./BusinessBannerFormImage";
+import BusinessBannerFormText from "../ContactFormContent";
+import BusinessBannerFormImage from "../ContactFormImage";
 import "./index.scss";
 type Props = {};
 

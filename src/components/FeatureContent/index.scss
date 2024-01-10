@@ -1,0 +1,55 @@
+@use "../../app/styles/fonts" as *;
+@use "../../app/styles/colors" as *;
+
+.feature__text {
+  min-width: 450px;
+}
+
+.feature__heading {
+  font-family: "Plus Jakarta Sans";
+  font-size: 38px;
+  font-weight: 700;
+  line-height: 46px;
+  color: $color-azulado;
+}
+.feature__description {
+  font-family: "Plus Jakarta Sans";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  text-align: justify;
+  margin-top: 40px;
+  //   margin-right: 60px;
+  //   padding-right: 35px;
+  color: $color-midnight-blue;
+}
+
+.feature__buttons {
+  margin-top: 40px;
+}
+.feature__button {
+  margin-left: 32px;
+}
+.feature__button:first-child {
+  margin-left: 0px;
+}
+
+.feature__checks {
+  margin-top: 40px;
+}
+.feature__check {
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+}
+.feature__check:last-child {
+  margin-bottom: 0px;
+}
+.feature__check-text {
+  font-family: "Plus Jakarta Sans";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: $color-midnight-blue;
+  margin-left: 19.74px;
+}

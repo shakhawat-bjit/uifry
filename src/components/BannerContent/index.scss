@@ -1,7 +1,7 @@
-@use "../../../app/styles/fonts" as *;
-@use "../../../app/styles/colors" as *;
+@use "../../app/styles/fonts" as *;
+@use "../../app/styles/colors" as *;
 
-.banner__text {
+.banner__content {
   min-width: 450px;
 }
 
@@ -10,7 +10,7 @@
   font-weight: 700;
   font-size: 54px;
   line-height: 62px;
-  color: $heading;
+  color: $color-azulado;
 }
 .banner__description {
   font-family: "Plus Jakarta Sans";
@@ -18,7 +18,7 @@
   font-size: 16px;
   line-height: 28px;
   text-align: justify;
-  color: $dark;
+  color: $color-midnight-blue;
   margin-top: 40px;
   margin-right: 60px;
   padding-right: 35px;
@@ -28,24 +28,25 @@
   margin-top: 40px;
   display: flex;
   align-items: center;
-  .banner__button {
-    margin-left: 32px;
-  }
-  .banner__button:first-child {
-    margin-left: 0px;
-  }
+}
+.banner__button {
+  margin-left: 32px;
+}
+.banner__button:first-child {
+  margin-left: 0px;
 }
 
 .banner__star {
   margin-top: 40px;
   display: flex;
   align-items: center;
-  .banner__star-text {
-    font-family: "Plus Jakarta Sans";
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 28px;
-    color: $dark;
-    margin-left: 20px;
-  }
+}
+
+.banner__star-text {
+  font-family: "Plus Jakarta Sans";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: $color-midnight-blue;
+  margin-left: 20px;
 }

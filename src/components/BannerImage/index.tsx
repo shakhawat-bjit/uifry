@@ -1,8 +1,8 @@
 import React from "react";
 import "./index.scss";
-import user from "../../../../public/assets/images/human/image1.png";
-import shape from "../../../../public/assets/images/shape/shape2.png";
-import stat from "../../../../public/assets/images/stat/stat1.png";
+import user from "../../../public/assets/images/human/image1.png";
+import shape from "../../../public/assets/images/shape/shape2.png";
+import stat from "../../../public/assets/images/stat/stat1.png";
 import Image from "next/image";
 type Props = {};
 
