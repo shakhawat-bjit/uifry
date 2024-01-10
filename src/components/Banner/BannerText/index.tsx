@@ -9,7 +9,10 @@ type Props = {};
 
 export default function BannerText({}: Props) {
   return (
-    <div style={{ background: "red" }} className="banner__text">
+    <div
+      // style={{ background: "red" }}
+      className="banner__text"
+    >
       <h2 className="banner__heading">
         Launch a software businesses website today with us!
       </h2>

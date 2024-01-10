@@ -26,6 +26,8 @@
 
 .banner__buttons {
   margin-top: 40px;
+  display: flex;
+  align-items: center;
   .banner__button {
     margin-left: 32px;
   }
@@ -36,6 +38,8 @@
 
 .banner__star {
   margin-top: 40px;
+  display: flex;
+  align-items: center;
   .banner__star-text {
     font-family: "Plus Jakarta Sans";
     font-weight: 400;

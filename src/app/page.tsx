@@ -7,6 +7,8 @@ import Banner from "@/components/Banner";
 import Clients from "@/components/Clients";
 import Footer from "@/components/Footer";
 import BusinessBanner from "@/components/BusinessBanner";
+import FeatureList from "@/components/FeatureList";
+import BusinessBannerForm from "@/components/BusinessBannerForm";
 
 export default function Home() {
   return (
@@ -15,6 +17,8 @@ export default function Home() {
       <Banner />
       <Clients />
       <BusinessBanner />
+      <FeatureList />
+      <BusinessBannerForm />
       <Footer />
     </main>
   );
