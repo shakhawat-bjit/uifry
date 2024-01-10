@@ -9,35 +9,35 @@ type Props = {};
 
 export default function FeatureImage({}: Props) {
   return (
-    <div className="feature__image">
-      <div className="feature__image-box">
+    <div className="feature-image">
+      <div className="feature-image__box">
         <Image
           src={user.src}
           height={572}
           width={415}
           alt="user image"
-          className="feature__image-picture"
+          className="feature-image__picture"
         />
         <Image
           src={line.src}
           height={97.53}
           width={158.3}
           alt="line image"
-          className="feature__image-line"
+          className="feature-image__line"
         />
         <Image
           src={star.src}
           height={76.1}
           width={80}
           alt="shape image"
-          className="feature__image-star"
+          className="feature-image__star"
         />
         <Image
           src={stat.src}
           width={240.12}
           height={207}
           alt="arrow image"
-          className="feature__image-stat"
+          className="feature-image__stat"
         />
       </div>
     </div>

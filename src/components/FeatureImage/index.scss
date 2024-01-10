@@ -1,7 +1,7 @@
 @use "../../app/styles/colors" as *;
-.feature__image {
+.feature-image {
 }
-.feature__image-box {
+.feature-image__box {
   width: 475px;
   height: 528px;
   border-radius: 5px;
@@ -9,7 +9,7 @@
   position: relative;
 }
 
-.feature__image-picture {
+.feature-image__picture {
   //   height: 608px;
   //   height: 590px;
   position: absolute;
@@ -17,19 +17,19 @@
   bottom: 0px;
 }
 
-.feature__image-line {
+.feature-image__line {
   position: absolute;
   left: 371px;
   top: 66px;
 }
 
-.feature__image-star {
+.feature-image__star {
   position: absolute;
   left: 60px;
   top: -40px;
 }
 
-.feature__image-stat {
+.feature-image__stat {
   position: absolute;
   left: 322px;
   top: 224px;

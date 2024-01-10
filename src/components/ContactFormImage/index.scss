@@ -1,0 +1,36 @@
+@use "../../app/styles/colors" as *;
+.contact-form {
+}
+.contact-form__box {
+  width: 475px;
+  height: 528px;
+  border-radius: 5px;
+  background-color: $color-lavender-gray;
+  position: relative;
+}
+
+.contact-form__picture {
+  //   height: 608px;
+  //   height: 590px;
+  position: absolute;
+  left: 30px;
+  bottom: 0px;
+}
+
+.contact-form__line {
+  position: absolute;
+  left: 371px;
+  top: 66px;
+}
+
+.contact-form__star {
+  position: absolute;
+  left: 60px;
+  top: -40px;
+}
+
+.contact-form__stat {
+  position: absolute;
+  left: 322px;
+  top: 224px;
+}
