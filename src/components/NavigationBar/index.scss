@@ -8,7 +8,7 @@
 
 .navbar__head--text {
   background-color: $primary1;
-  color: $bodyText2;
+  color: $light;
   font-size: 14px;
   text-align: center;
   padding-top: 13px;
@@ -20,6 +20,7 @@
 .navbar__body {
   margin-left: 80px;
   margin-right: 80px;
+  margin-top: 30px;
   display: flex;
   align-items: center;
 }
@@ -40,5 +41,5 @@
 }
 
 .navbar__contact {
-  margin-left: 336px;
+  margin-left: 536px;
 }

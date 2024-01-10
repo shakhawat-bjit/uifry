@@ -1,0 +1,36 @@
+@use "../../app/styles/colors" as *;
+@use "../../app/styles/fonts" as *;
+
+.clients {
+  margin-top: 74px;
+  margin-left: 80px;
+  margin-right: 80px;
+  display: flex;
+  border: 1px solid #d0d0d0;
+  border-radius: 5px;
+}
+
+.clients-text {
+  margin-top: 51px;
+  margin-bottom: 39px;
+  margin-left: 46px;
+  width: 232px;
+
+  font-family: "Plus Jakarta Sans";
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 28px;
+  color: $dark;
+}
+
+.clients-logo {
+  margin: 47px 93px 40px 81px;
+  display: flex;
+}
+
+.client-logo {
+  margin-right: 90px;
+}
+.client-logo:last-child {
+  margin-right: 0px;
+}

@@ -1,0 +1,63 @@
+@use "../../app/styles/colors" as *;
+@use "../../app/styles/fonts" as *;
+
+.footer {
+  margin-top: 103.5px;
+  margin-bottom: 49px;
+  margin-left: 80px;
+  margin-right: 80px;
+  // width: 1280px;
+  font-family: "Plus Jakarta Sans";
+}
+
+.footer__head {
+  display: flex;
+  align-items: center;
+}
+
+.footer__links {
+  margin-left: 625px;
+  .footer__link {
+    margin-right: 80px;
+    text-decoration: none;
+    color: $heading;
+    font-weight: 700;
+    font-size: 14px;
+    height: 17.64px;
+  }
+  .footer__link:last-child {
+    margin-right: 0px;
+  }
+}
+
+.footer__body {
+  margin-top: 53.25px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer-divider {
+  margin-top: 65px;
+  border: 1px solid $black;
+  justify-content: center;
+}
+
+.footer-text {
+  font-family: Plus Jakarta Sans;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0em;
+  color: $dark;
+}
+
+.footer-socialLinks {
+  display: flex;
+  .footer-socialLink {
+    margin-right: 20px;
+  }
+  .footer-socialLink:last-child {
+    margin-right: 0px;
+  }
+}

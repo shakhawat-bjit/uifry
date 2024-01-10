@@ -1,4 +1,5 @@
 import React from "react";
+import "./index.scss";
 
 type Props = {
   className?: string;
@@ -6,5 +7,5 @@ type Props = {
 };
 
 export default function Button({ className, children }: Props) {
-  return <button>{children}</button>;
+  return <button className={className}>{children}</button>;
 }

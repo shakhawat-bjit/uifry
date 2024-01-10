@@ -1,0 +1,36 @@
+@use "../../../app/styles/colors" as *;
+.businessBanner__image {
+}
+.businessBanner__image-box {
+  width: 475px;
+  height: 528px;
+  border-radius: 5px;
+  background-color: $gray;
+  position: relative;
+}
+
+.businessBanner__image-picture {
+  //   height: 608px;
+  //   height: 590px;
+  position: absolute;
+  left: 30px;
+  bottom: 0px;
+}
+
+.businessBanner__image-line {
+  position: absolute;
+  left: 371px;
+  top: 66px;
+}
+
+.businessBanner__image-star {
+  position: absolute;
+  left: 60px;
+  top: -40px;
+}
+
+.businessBanner__image-stat {
+  position: absolute;
+  left: 322px;
+  top: 224px;
+}

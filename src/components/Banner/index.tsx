@@ -9,7 +9,7 @@ export default function Banner({}: Props) {
   return (
     <div className="banner">
       <BannerText />
-      {/* <BannerImage /> */}
+      <BannerImage />
     </div>
   );
 }

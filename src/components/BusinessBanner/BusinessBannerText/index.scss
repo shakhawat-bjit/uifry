@@ -1,47 +1,55 @@
 @use "../../../app/styles/fonts" as *;
 @use "../../../app/styles/colors" as *;
 
-.banner__text {
+.businessBanner__text {
   min-width: 450px;
 }
 
-.banner__heading {
+.businessBanner__heading {
   font-family: "Plus Jakarta Sans";
+  font-size: 38px;
   font-weight: 700;
-  font-size: 54px;
-  line-height: 62px;
+  line-height: 46px;
   color: $heading;
 }
-.banner__description {
+.businessBanner__description {
   font-family: "Plus Jakarta Sans";
   font-weight: 400;
   font-size: 16px;
   line-height: 28px;
   text-align: justify;
-  color: $dark;
   margin-top: 40px;
-  margin-right: 60px;
-  padding-right: 35px;
+  //   margin-right: 60px;
+  //   padding-right: 35px;
+  color: $dark;
 }
 
-.banner__buttons {
+.businessBanner__buttons {
   margin-top: 40px;
-  .banner__button {
+  .businessBanner__button {
     margin-left: 32px;
   }
-  .banner__button:first-child {
+  .businessBanner__button:first-child {
     margin-left: 0px;
   }
 }
 
-.banner__star {
+.businessBanner__checks {
   margin-top: 40px;
-  .banner__star-text {
+  .businessBanner__check {
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+  }
+  .businessBanner__check:last-child {
+    margin-bottom: 0px;
+  }
+  .businessBanner__check-text {
     font-family: "Plus Jakarta Sans";
     font-weight: 400;
     font-size: 16px;
     line-height: 28px;
     color: $dark;
-    margin-left: 20px;
+    margin-left: 19.74px;
   }
 }
