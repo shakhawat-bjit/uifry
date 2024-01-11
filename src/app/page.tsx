@@ -3,11 +3,9 @@ import Image from "next/image";
 import "./page.scss";
 import NavigationBar from "@/components/NavigationBar";
 import Banner from "@/components/Banner";
-
 import Clients from "@/components/Clients";
 import Footer from "@/components/Footer";
 import FeatureList from "@/components/FeatureList";
-import BusinessBannerForm from "@/components/ContactForm";
 import Feature from "@/components/Feature";
 import ContactForm from "@/components/ContactForm";
 import Updates from "@/components/Updates";
@@ -19,7 +17,7 @@ export default function Home() {
     <main className="parent-container">
       <NavigationBar />
       <Banner />
-      <Clients />
+      {/*   <Clients />
       <Feature />
       <FeatureList />
       <ContactForm />
@@ -27,7 +25,7 @@ export default function Home() {
       <Business />
       <FeatureList />
       <FAQ />
-      <Footer />
+      <Footer /> */}
     </main>
   );
 }

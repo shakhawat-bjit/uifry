@@ -32,3 +32,18 @@
   left: -85px;
   top: 120px;
 }
+
+@media screen and (max-width: 428px) {
+  .banner__image-stat {
+    display: none;
+  }
+  .banner__image-box {
+    margin-left: 0px;
+    width: 316.5px;
+    width: 352px;
+  }
+  .banner__image-picture {
+    width: 350px;
+    height: 360px;
+  }
+}
