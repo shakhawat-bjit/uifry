@@ -11,7 +11,6 @@ import BusinessBannerForm from "@/components/ContactForm";
 import Feature from "@/components/Feature";
 import ContactForm from "@/components/ContactForm";
 import Updates from "@/components/Updates";
-
 import Business from "@/components/Business";
 import FAQ from "@/components/FAQ";
 

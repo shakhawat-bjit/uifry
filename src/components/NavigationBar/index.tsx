@@ -10,7 +10,7 @@ type Props = {};
 export default function NavigationBar({}: Props) {
   return (
     <div className="navbar">
-      <div className="navbar__head--text ">
+      <div className="navbar__head--text">
         This is an announcement tagline for you to insert
       </div>
       <div className="navbar__body">
@@ -37,7 +37,7 @@ export default function NavigationBar({}: Props) {
           </Link>
         </div>
         <div className="navbar__contact">
-          <Button className="btn-md--primary">Contact Now</Button>
+          <Button className="button--md--bride-blush">Contact Now</Button>
         </div>
       </div>
     </div>

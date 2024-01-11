@@ -17,7 +17,10 @@ const data = [
 export default function FAQ({}: Props) {
   return (
     <div className="faq">
-      <Image src={fire.src} width={52.5} height={66.3} alt="fire image" />
+      <div className="faq__image">
+        <Image src={fire.src} width={52.5} height={66.3} alt="fire image" />
+      </div>
+
       <div className="faq__title">
         <h2 className="faq__title__heading">Frequently asked questions</h2>
         <p className="faq__title__description">

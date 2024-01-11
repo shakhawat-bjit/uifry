@@ -22,16 +22,18 @@ export default function BannerContent({}: Props) {
         yours thrive every day and beyond.
       </p>
       <div className="banner__buttons">
-        <Button className="banner__button btn-md--primary">Contact Now </Button>
-        <Button className=" banner__button icon-button--sm-light button--border--bride-blush">
+        <Button className="banner__button button--md--bride-blush">
+          Contact Now{" "}
+        </Button>
+        <Button className=" banner__button icon-button--sm-white button--border--bride-blush">
           <Image src={arrow.src} height={24} width={24} alt=">" />
         </Button>
-        <Button className="banner__button btn-md-light button--padding--x--zero">
+        <Button className="banner__button button--md--white button--padding--x--zero">
           Book a Demo Today
         </Button>
       </div>
       <div className="banner__star">
-        <Button className=" icon-button--sm--primary">
+        <Button className=" icon-button--sm--bride-blush">
           <Image src={star.src} height={24} width={24} alt=">" />
         </Button>
         <span className="banner__star-text">Rated 4.9 out of 1200 reviews</span>

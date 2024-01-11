@@ -43,7 +43,7 @@ export default function ContactFormContent({}: Props) {
             />
           </div>
           <div>
-            <Button className="btn--lg--primary ">
+            <Button className="button--lg--bride-blush ">
               <span style={{ marginRight: "8px" }}>Contact Now</span>
               <Image
                 src={arrowRight.src}

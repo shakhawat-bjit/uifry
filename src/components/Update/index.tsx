@@ -30,7 +30,7 @@ export default function Update({ update }: Props) {
       </div>
 
       <div className="update-card__button">
-        <Button className="icon-button--sm-light button--border--bride-blush">
+        <Button className="icon-button--sm-white button--border--bride-blush">
           <Image src={arrow.src} width={24} height={24} alt=">" />
         </Button>
       </div>

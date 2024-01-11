@@ -19,7 +19,7 @@ export default function BusinessContent({}: Props) {
       </p>
       <div className="business--content__checks">
         <div className="business--content__check">
-          <Button className=" icon-button--sm--primary">
+          <Button className=" icon-button--sm--bride-blush">
             <Image src={tick.src} height={24} width={24} alt=">" />
           </Button>
           <span className="business--content__check-text">
@@ -27,7 +27,7 @@ export default function BusinessContent({}: Props) {
           </span>
         </div>
         <div className="business--content__check">
-          <Button className=" icon-button--sm--primary">
+          <Button className=" icon-button--sm--bride-blush">
             <Image src={tick.src} height={24} width={24} alt=">" />
           </Button>
           <span className="business--content__check-text">
@@ -36,13 +36,13 @@ export default function BusinessContent({}: Props) {
         </div>
       </div>
       <div className="business--content__buttons">
-        <Button className="business--content__button btn-md--primary">
+        <Button className="business--content__button button--md--bride-blush">
           Contact Now{" "}
         </Button>
-        <Button className=" business--content__button icon-button--sm-light button--border--bride-blush">
+        <Button className=" business--content__button icon-button--sm-white button--border--bride-blush">
           <Image src={arrow.src} height={24} width={24} alt=">" />
         </Button>
-        <Button className="business--content__button btn-md-light button--padding--x--zero">
+        <Button className="business--content__button button--md--white button--padding--x--zero">
           Book a Demo Today
         </Button>
       </div>

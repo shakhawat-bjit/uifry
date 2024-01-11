@@ -1,7 +1,7 @@
 @use "../../app/styles/colors" as *;
 @use "../../app/styles/fonts" as *;
 
-.btn-md--primary {
+.button--md--bride-blush {
   background-color: $color-bride-blush;
   color: $color-midnight-blue;
   border-radius: 5px;
@@ -13,7 +13,7 @@
   text-transform: capitalize;
 }
 
-.btn--lg--primary {
+.button--lg--bride-blush {
   background-color: $color-bride-blush;
   color: $color-midnight-blue;
   border-radius: 5px;
@@ -29,7 +29,7 @@
   align-items: center;
 }
 
-.btn-md-light {
+.button--md--white {
   background-color: $color-white;
   color: $color-midnight-blue;
   border-radius: 5px;
@@ -40,7 +40,7 @@
   border: 0px;
 }
 
-.icon-button--sm-light {
+.icon-button--sm-white {
   background-color: $color-white;
   border-radius: 5px;
   padding: 13px 12px;
@@ -59,7 +59,7 @@
   padding-right: 0px;
 }
 
-.icon-button--sm--primary {
+.icon-button--sm--bride-blush {
   background-color: $color-bride-blush;
   border-radius: 5px;
   padding: 13px 12px;
