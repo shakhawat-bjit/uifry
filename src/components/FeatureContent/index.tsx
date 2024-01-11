@@ -21,7 +21,10 @@ export default function FeatureContent({}: Props) {
       </p>
       <div className="feature--content__checks">
         <div className="feature--content__check">
-          <Button className=" icon-button--sm--bride-blush">
+          <Button
+            clickEvent={() => console.log("hi")}
+            className=" icon-button--sm--bride-blush"
+          >
             <Image src={tick.src} height={24} width={24} alt=">" />
           </Button>
           <span className="feature--content__check-text">
@@ -29,7 +32,10 @@ export default function FeatureContent({}: Props) {
           </span>
         </div>
         <div className="feature--content__check">
-          <Button className=" icon-button--sm--bride-blush">
+          <Button
+            clickEvent={() => console.log("hi")}
+            className=" icon-button--sm--bride-blush"
+          >
             <Image src={tick.src} height={24} width={24} alt=">" />
           </Button>
           <span className="feature--content__check-text">

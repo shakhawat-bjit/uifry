@@ -7,6 +7,21 @@ type Props = {};
 
 const data = [
   {
+    id: "1",
+    title: "What is the best way to create a saas business today?",
+    description1: `Launch a business today with our help and get it done with amazing launch features, websites and more with uifry. We help business like yours thrive every day and beyond.
+        Launch a business today with our help and get it done with amazing launch features, websites and more with uifry. We help business like yours thrive every day and beyond.`,
+    description2: `Launch a business today with our help and get it done with amazing launch features, websites and more with uifry. We help business like yours thrive every day and beyond. Launch a business today with our help and get it done with amazing launch features, websites and more with uifry. We help business like yours thrive every day and beyond.`,
+  },
+  {
+    id: "2",
+    title: "What is the best way to create a saas business today?",
+    description1: `Launch a business today with our help and get it done with amazing launch features, websites and more with uifry. We help business like yours thrive every day and beyond.
+        Launch a business today with our help and get it done with amazing launch features, websites and more with uifry. We help business like yours thrive every day and beyond.`,
+    description2: `Launch a business today with our help and get it done with amazing launch features, websites and more with uifry. We help business like yours thrive every day and beyond. Launch a business today with our help and get it done with amazing launch features, websites and more with uifry. We help business like yours thrive every day and beyond.`,
+  },
+  {
+    id: "3",
     title: "What is the best way to create a saas business today?",
     description1: `Launch a business today with our help and get it done with amazing launch features, websites and more with uifry. We help business like yours thrive every day and beyond.
         Launch a business today with our help and get it done with amazing launch features, websites and more with uifry. We help business like yours thrive every day and beyond.`,
@@ -28,7 +43,9 @@ export default function FAQ({}: Props) {
         </p>
       </div>
       <div className="faq__accordion">
-        <Accordion data={data[0]} />
+        {data?.map((x) => (
+          <Accordion data={x} key={x?.id} />
+        ))}
       </div>
     </div>
   );

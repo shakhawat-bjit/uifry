@@ -1,3 +1,4 @@
+"use client";
 import React from "react";
 import "./index.scss";
 import Button from "../Button";
@@ -12,7 +13,10 @@ export default function FeatureList({}: Props) {
   return (
     <div className="feature-list">
       <div className="feature-list__feature">
-        <Button className="icon-button--sm--bride-blush">
+        <Button
+          clickEvent={() => console.log("hi")}
+          className="icon-button--sm--bride-blush"
+        >
           <Image src={tick.src} height={24} width={24} alt="tick" />
         </Button>
         <p className="feature-list__feature__text">
@@ -20,7 +24,10 @@ export default function FeatureList({}: Props) {
         </p>
       </div>
       <div className="feature-list__feature">
-        <Button className="icon-button--sm--bride-blush">
+        <Button
+          clickEvent={() => console.log("hi")}
+          className="icon-button--sm--bride-blush"
+        >
           <Image src={time.src} height={24} width={24} alt="time" />
         </Button>
         <p className="feature-list__feature__text">
@@ -28,7 +35,10 @@ export default function FeatureList({}: Props) {
         </p>
       </div>
       <div className="feature-list__feature">
-        <Button className="icon-button--sm--bride-blush">
+        <Button
+          clickEvent={() => console.log("hi")}
+          className="icon-button--sm--bride-blush"
+        >
           <Image src={upload.src} height={24} width={24} alt="upload" />
         </Button>
         <p className="feature-list__feature__text">

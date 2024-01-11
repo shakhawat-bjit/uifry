@@ -8,7 +8,7 @@ type Props = {
 };
 
 export default function Button({ className, children, clickEvent }: Props) {
-  console.log(clickEvent);
+  // console.log(clickEvent);
   return (
     <button className={`${className} button-design  `} onClick={clickEvent}>
       {children}

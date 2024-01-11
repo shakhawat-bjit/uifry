@@ -1,7 +1,5 @@
 import React from "react";
-import BusinessBannerText from "../FeatureContent";
 import "./index.scss";
-import BusinessBannerImage from "../FeatureImage";
 import FeatureContent from "../FeatureContent";
 import FeatureImage from "../FeatureImage";
 type Props = {};

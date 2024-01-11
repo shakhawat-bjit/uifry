@@ -30,7 +30,10 @@ export default function Update({ update }: Props) {
       </div>
 
       <div className="update-card__button">
-        <Button className="icon-button--sm-white button--border--bride-blush">
+        <Button
+          clickEvent={() => console.log("hi")}
+          className="icon-button--sm-white button--border--bride-blush"
+        >
           <Image src={arrow.src} width={24} height={24} alt=">" />
         </Button>
       </div>

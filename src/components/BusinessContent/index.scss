@@ -1,11 +1,11 @@
 @use "../../app/styles/fonts" as *;
 @use "../../app/styles/colors" as *;
 
-.business--content__text {
+.business-content__text {
   min-width: 450px;
 }
 
-.business--content__heading {
+.business-content__heading {
   font-family: $plus-jakarta-sans;
   font-size: 38px;
   font-weight: 700;
@@ -15,7 +15,7 @@
   max-width: 530px;
 }
 
-.business--content__description {
+.business-content__description {
   font-family: $plus-jakarta-sans;
   font-weight: 400;
   font-size: 16px;
@@ -25,30 +25,30 @@
   color: $color-midnight-blue;
 }
 
-.business--content__buttons {
+.business-content__buttons {
   margin-top: 40px;
   display: flex;
   align-items: center;
 }
-.business--content__button {
+.business-content__button {
   margin-left: 20px;
 }
-.business--content__button:first-child {
+.business-content__button:first-child {
   margin-left: 0px;
 }
 
-.business--content__checks {
+.business-content__checks {
   margin-top: 40px;
 }
-.business--content__check {
+.business-content__check {
   margin-bottom: 20px;
   display: flex;
   align-items: center;
 }
-.business--content__check:last-child {
+.business-content__check:last-child {
   margin-bottom: 0px;
 }
-.business--content__check-text {
+.business-content__check-text {
   font-family: $plus-jakarta-sans;
   font-weight: 400;
   font-size: 16px;
