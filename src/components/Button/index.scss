@@ -6,7 +6,7 @@
   color: $color-midnight-blue;
   border-radius: 5px;
   padding: 16px 24px;
-  font-family: "Plus Jakarta Sans";
+  font-family: $plus-jakarta-sans;
   font-weight: 700;
   line-height: 17.5px;
   border: 0px;
@@ -18,7 +18,7 @@
   color: $color-midnight-blue;
   border-radius: 5px;
   padding: 16px 24px;
-  font-family: "Plus Jakarta Sans";
+  font-family: $plus-jakarta-sans;
   font-weight: 700;
   line-height: 17.5px;
   border: 0px;
@@ -34,7 +34,7 @@
   color: $color-midnight-blue;
   border-radius: 5px;
   padding: 16px 24px;
-  font-family: "Plus Jakarta Sans";
+  font-family: $plus-jakarta-sans;
   font-weight: 700;
   line-height: 17.5px;
   border: 0px;
@@ -52,6 +52,11 @@
 
 .button--border--bride-blush {
   border: 1px solid $color-bride-blush;
+}
+
+.button--padding--x--zero {
+  padding-left: 0px;
+  padding-right: 0px;
 }
 
 .icon-button--sm--primary {

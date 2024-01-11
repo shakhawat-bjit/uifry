@@ -1,0 +1,35 @@
+@use "../../app/styles/colors" as *;
+@use "../../app/styles/fonts" as *;
+
+.accordion__title {
+  padding: 23px 47px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: $color-azulado;
+
+  color: $color-white;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 28px;
+}
+
+.accordion__title__text {
+  font-family: $plus-jakarta-sans;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 28px;
+  text-align: justify;
+}
+
+.accordion__body {
+  padding: 23px 35px 20px 44px;
+}
+
+.accordion__body_text {
+  font-family: $plus-jakarta-sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  color: $color-midnight-blue;
+}

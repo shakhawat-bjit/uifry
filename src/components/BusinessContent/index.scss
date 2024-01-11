@@ -6,7 +6,7 @@
 }
 
 .business--content__heading {
-  font-family: "Plus Jakarta Sans";
+  font-family: $plus-jakarta-sans;
   font-size: 38px;
   font-weight: 700;
   line-height: 46px;
@@ -16,7 +16,7 @@
 }
 
 .business--content__description {
-  font-family: "Plus Jakarta Sans";
+  font-family: $plus-jakarta-sans;
   font-weight: 400;
   font-size: 16px;
   line-height: 28px;
@@ -27,9 +27,11 @@
 
 .business--content__buttons {
   margin-top: 40px;
+  display: flex;
+  align-items: center;
 }
 .business--content__button {
-  margin-left: 32px;
+  margin-left: 20px;
 }
 .business--content__button:first-child {
   margin-left: 0px;
@@ -47,22 +49,10 @@
   margin-bottom: 0px;
 }
 .business--content__check-text {
-  font-family: "Plus Jakarta Sans";
+  font-family: $plus-jakarta-sans;
   font-weight: 400;
   font-size: 16px;
   line-height: 28px;
   color: $color-midnight-blue;
   margin-left: 19.74px;
-}
-
-.business--content__buttons {
-  margin-top: 40px;
-  display: flex;
-  align-items: center;
-}
-.business--content__button {
-  margin-left: 32px;
-}
-.business--content__button:first-child {
-  margin-left: 0px;
 }

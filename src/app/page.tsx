@@ -13,6 +13,7 @@ import ContactForm from "@/components/ContactForm";
 import Updates from "@/components/Updates";
 
 import Business from "@/components/Business";
+import FAQ from "@/components/FAQ";
 
 export default function Home() {
   return (
@@ -25,6 +26,8 @@ export default function Home() {
       <ContactForm />
       <Updates />
       <Business />
+      <FeatureList />
+      <FAQ />
       <Footer />
     </main>
   );

@@ -42,7 +42,7 @@ export default function BusinessContent({}: Props) {
         <Button className=" business--content__button icon-button--sm-light button--border--bride-blush">
           <Image src={arrow.src} height={24} width={24} alt=">" />
         </Button>
-        <Button className="business--content__button btn-md-light">
+        <Button className="business--content__button btn-md-light button--padding--x--zero">
           Book a Demo Today
         </Button>
       </div>

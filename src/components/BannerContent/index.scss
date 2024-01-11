@@ -6,14 +6,14 @@
 }
 
 .banner__heading {
-  font-family: "Plus Jakarta Sans";
+  font-family: $plus-jakarta-sans;
   font-weight: 700;
   font-size: 54px;
   line-height: 62px;
   color: $color-azulado;
 }
 .banner__description {
-  font-family: "Plus Jakarta Sans";
+  font-family: $plus-jakarta-sans;
   font-weight: 400;
   font-size: 16px;
   line-height: 28px;
@@ -30,7 +30,7 @@
   align-items: center;
 }
 .banner__button {
-  margin-left: 32px;
+  margin-left: 20px;
 }
 .banner__button:first-child {
   margin-left: 0px;
@@ -43,7 +43,7 @@
 }
 
 .banner__star-text {
-  font-family: "Plus Jakarta Sans";
+  font-family: $plus-jakarta-sans;
   font-weight: 400;
   font-size: 16px;
   line-height: 28px;

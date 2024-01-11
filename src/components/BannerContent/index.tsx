@@ -26,7 +26,7 @@ export default function BannerContent({}: Props) {
         <Button className=" banner__button icon-button--sm-light button--border--bride-blush">
           <Image src={arrow.src} height={24} width={24} alt=">" />
         </Button>
-        <Button className="banner__button btn-md-light">
+        <Button className="banner__button btn-md-light button--padding--x--zero">
           Book a Demo Today
         </Button>
       </div>
