@@ -2,6 +2,7 @@
 @use "../../app/styles/colors" as *;
 
 .banner__image {
+  // overflow: hidden;
 }
 
 .banner__image-box {
@@ -23,7 +24,7 @@
 
 .banner__image-arrow {
   position: absolute;
-  left: 474px;
+  right: -42px;
   top: 32px;
 }
 
@@ -34,16 +35,30 @@
 }
 
 @media screen and (max-width: 428px) {
+  .banner__image {
+    margin-top: 68px;
+  }
+
   .banner__image-stat {
     display: none;
   }
   .banner__image-box {
-    margin-left: 0px;
     width: 316.5px;
-    width: 352px;
+    height: 352px;
+    margin-left: 52px;
   }
   .banner__image-picture {
     width: 350px;
     height: 360px;
+    position: absolute;
+    right: 19.5px;
+  }
+
+  .banner__image-arrow {
+    width: 76.5px;
+    height: 74px;
+    right: -24.8px;
+    top: 20.6px;
+    overflow: hidden;
   }
 }

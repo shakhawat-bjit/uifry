@@ -17,8 +17,8 @@ export default function Home() {
     <main className="parent-container">
       <NavigationBar />
       <Banner />
-      {/*   <Clients />
-      <Feature />
+      <Clients />
+      {/* <Feature />
       <FeatureList />
       <ContactForm />
       <Updates />

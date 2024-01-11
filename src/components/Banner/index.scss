@@ -2,9 +2,10 @@
   margin-top: 70px;
   margin-left: 80px;
   margin-right: 80px;
-  display: grid;
+  display: flex;
+  justify-content: space-between;
   // gap: 123px;
-  grid-template-columns: repeat(2, 1fr);
+  // grid-template-columns: repeat(2, 1fr);
 }
 
 @media screen and (max-width: 428px) {

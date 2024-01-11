@@ -17,22 +17,58 @@ export default function Clients({}: Props) {
       <p className="clients-text">Trusted by over 100+ businesses worldwide!</p>
       <div className="clients-logo">
         <div className="client-logo">
-          <Image src={intercom} height={63} width={63} alt="intercom" />
+          <Image
+            className="client-logo__image"
+            src={intercom}
+            height={63}
+            width={63}
+            alt="intercom"
+          />
         </div>
         <div className="client-logo">
-          <Image src={treehouse} height={63} width={63} alt="intercom" />
+          <Image
+            className="client-logo__image"
+            src={treehouse}
+            height={63}
+            width={63}
+            alt="intercom"
+          />
         </div>
         <div className="client-logo">
-          <Image src={zapier} height={63} width={63} alt="intercom" />
+          <Image
+            className="client-logo__image"
+            src={zapier}
+            height={63}
+            width={63}
+            alt="intercom"
+          />
         </div>
         <div className="client-logo">
-          <Image src={marvel} height={63} width={63} alt="intercom" />
+          <Image
+            className="client-logo__image"
+            src={marvel}
+            height={63}
+            width={63}
+            alt="intercom"
+          />
         </div>
         <div className="client-logo">
-          <Image src={notion} height={63} width={63} alt="intercom" />
+          <Image
+            className="client-logo__image"
+            src={notion}
+            height={63}
+            width={63}
+            alt="intercom"
+          />
         </div>
         <div className="client-logo">
-          <Image src={shazam} height={63} width={63} alt="intercom" />
+          <Image
+            className="client-logo__image"
+            src={shazam}
+            height={63}
+            width={63}
+            alt="intercom"
+          />
         </div>
       </div>
     </div>

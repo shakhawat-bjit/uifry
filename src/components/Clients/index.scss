@@ -34,3 +34,27 @@
 .client-logo:last-child {
   margin-right: 0px;
 }
+
+@media screen and (max-width: 428px) {
+  .clients {
+    margin-left: 20px;
+    margin-right: 20px;
+    flex-direction: column;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 28px;
+  }
+  .clients-text {
+    margin-bottom: 45px;
+  }
+  .clients-logo {
+    margin: 0px 0px 58px 44px;
+  }
+  .client-logo {
+    margin-right: 47px;
+  }
+  .client-logo__image {
+    width: 64px;
+    height: 64px;
+  }
+}
