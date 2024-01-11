@@ -18,14 +18,14 @@ export default function Home() {
       <NavigationBar />
       <Banner />
       <Clients />
-      {/* <Feature />
+      <Feature />
       <FeatureList />
       <ContactForm />
       <Updates />
       <Business />
       <FeatureList />
       <FAQ />
-      <Footer /> */}
+      <Footer />
     </main>
   );
 }

@@ -34,3 +34,9 @@
   left: 322px;
   top: 224px;
 }
+
+@media screen and (max-width: 428px) {
+  .feature-image {
+    margin-top: 41px;
+  }
+}

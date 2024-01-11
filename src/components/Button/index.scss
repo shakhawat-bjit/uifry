@@ -1,6 +1,10 @@
 @use "../../app/styles/colors" as *;
 @use "../../app/styles/fonts" as *;
 
+.button-design {
+  cursor: pointer;
+}
+
 .button--md--bride-blush {
   background-color: $color-bride-blush;
   color: $color-midnight-blue;
