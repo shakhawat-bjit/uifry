@@ -13,7 +13,7 @@ type Props = {
 };
 
 export default function Accordion({ data, currentActive, clickEvent }: Props) {
-  //   console.log(data?.description1);
+  console.log("inside accordion ", data?.id, currentActive);
   return (
     <div className="accordion">
       <div
@@ -41,7 +41,7 @@ export default function Accordion({ data, currentActive, clickEvent }: Props) {
         className={`accordion__body  ${
           currentActive == data?.id
             ? " accordion__body--show  "
-            : " accordion__body--hide"
+            : " accordion__body--hide "
         } `}
       >
         <p className="accordion__body_text">

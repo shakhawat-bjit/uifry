@@ -38,3 +38,16 @@
 .faq__accordion {
   margin-top: 43px;
 }
+
+.faq__buttons {
+  margin-top: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.faq__button {
+  margin-left: 20px;
+}
+.faq__button:first-child {
+  margin-left: 0px;
+}
