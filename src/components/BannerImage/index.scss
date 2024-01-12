@@ -10,28 +10,11 @@
   height: 590px;
   border-radius: 5px;
   background-color: $color-bride-blush;
-  margin-left: 123px;
   position: relative;
 }
 
-.banner__image-picture {
-  // height: 608px;
-  // height: 590px;
-  position: absolute;
-  right: 70px;
-  bottom: 0px;
-}
-
-.banner__image-arrow {
-  position: absolute;
-  right: -42px;
-  top: 32px;
-}
-
-.banner__image-stat {
-  position: absolute;
-  left: -85px;
-  top: 120px;
+.banner__image__picture {
+  max-width: 787px;
 }
 
 @media screen and (max-width: 428px) {

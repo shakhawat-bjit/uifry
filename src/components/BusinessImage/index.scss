@@ -12,25 +12,5 @@
 .business-image__picture {
   //   height: 608px;
   //   height: 590px;
-  position: absolute;
-  left: 55px;
-  bottom: 0px;
-}
-
-.business-image__line {
-  position: absolute;
-  right: -52.8px;
-  top: 77px;
-}
-
-.business-image__star {
-  position: absolute;
-  left: 31px;
-  top: -38px;
-}
-
-.business-image__stat {
-  position: absolute;
-  right: -129px;
-  bottom: 66px;
+  max-width: 574px;
 }

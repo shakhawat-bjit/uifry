@@ -1,8 +1,8 @@
 .business {
   margin-top: 146px;
-  margin-left: 82px;
-  margin-right: 209px;
-  display: grid;
-  gap: 143px;
-  grid-template-columns: repeat(2, 1fr);
+  max-width: 1277px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: space-between;
 }

@@ -1,8 +1,12 @@
 @use "../../app/styles/fonts" as *;
 @use "../../app/styles/colors" as *;
 
+.business-content {
+  max-width: 530px;
+}
+
 .business-content__text {
-  min-width: 450px;
+  // min-width: 450px;
 }
 
 .business-content__heading {
@@ -11,8 +15,6 @@
   font-weight: 700;
   line-height: 46px;
   color: $color-azulado;
-
-  max-width: 530px;
 }
 
 .business-content__description {

@@ -1,38 +1,7 @@
 @use "../../app/styles/colors" as *;
-.feature-image {
-}
-.feature-image__box {
-  width: 475px;
-  height: 528px;
-  border-radius: 5px;
-  background-color: $color-lavender-gray;
-  position: relative;
-}
 
 .feature-image__picture {
-  //   height: 608px;
-  //   height: 590px;
-  position: absolute;
-  left: 30px;
-  bottom: 0px;
-}
-
-.feature-image__line {
-  position: absolute;
-  left: 371px;
-  top: 66px;
-}
-
-.feature-image__star {
-  position: absolute;
-  left: 60px;
-  top: -40px;
-}
-
-.feature-image__stat {
-  position: absolute;
-  left: 322px;
-  top: 224px;
+  max-width: 562.12px;
 }
 
 @media screen and (max-width: 428px) {

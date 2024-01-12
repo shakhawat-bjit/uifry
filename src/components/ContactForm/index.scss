@@ -1,8 +1,10 @@
 .contact-form {
   margin-top: 109px;
-  margin-left: 81px;
-  margin-right: 207px;
-  display: grid;
-  gap: 147px;
-  grid-template-columns: repeat(2, 1fr);
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1277px;
+
+  display: flex;
+  justify-content: space-between;
+  gap: 68px;
 }
