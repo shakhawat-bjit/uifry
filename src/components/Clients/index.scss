@@ -3,17 +3,27 @@
 
 .clients {
   margin-top: 74px;
-  margin-left: 80px;
-  margin-right: 80px;
+  // margin-left: 80px;
+  // margin-right: 80px;
   display: flex;
+  justify-content: space-between;
+  align-items: center;
   border: 1px solid #d0d0d0;
   border-radius: 5px;
+
+  max-width: 1280px;
+  height: 150px;
+  margin-left: auto;
+  margin-right: auto;
+  box-sizing: border-box;
+  padding-left: 46px;
+  padding-right: 93px;
+}
+
+.clients__content {
 }
 
 .clients-text {
-  margin-top: 51px;
-  margin-bottom: 39px;
-  margin-left: 46px;
   width: 232px;
 
   font-family: $plus-jakarta-sans;
@@ -23,15 +33,15 @@
   color: $color-midnight-blue;
 }
 
-.clients-logo {
-  margin: 47px 93px 40px 81px;
+.clients-logos {
+  // margin: 47px 93px 40px 81px;
   display: flex;
 }
 
-.client-logo {
+.clients-logo {
   margin-right: 90px;
 }
-.client-logo:last-child {
+.clients-logo:last-child {
   margin-right: 0px;
 }
 
@@ -51,10 +61,10 @@
     margin: 0px 0px 58px 44px;
     overflow: hidden;
   }
-  .client-logo {
+  .clients-logo {
     margin-right: 47px;
   }
-  .client-logo__image {
+  .clients-logo__image {
     width: 64px;
     height: 64px;
   }

@@ -2,7 +2,10 @@
 @use "../../app/styles/fonts" as *;
 
 .update {
-  margin-top: 91px;
+  max-width: 1280px;
+  margin-top: 90px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .update__title {
@@ -29,8 +32,7 @@
 
 .update__wrapper {
   margin-top: 52px;
-  margin-left: 85px;
-  margin-right: 85px;
+
   display: grid;
   gap: 20px;
   grid-template-columns: repeat(3, 1fr);

@@ -4,20 +4,25 @@
 .footer {
   margin-top: 103.5px;
   margin-bottom: 49px;
-  margin-left: 80px;
-  margin-right: 80px;
-  // width: 1280px;
+  // margin-left: 80px;
+  // margin-right: 80px;
+
+  max-width: 1280px;
+  margin-left: auto;
+  margin-right: auto;
   font-family: $plus-jakarta-sans;
 }
 
 .footer__head {
   display: flex;
   align-items: center;
+  justify-content: space-between;
 }
 
-.footer__links {
-  margin-left: 625px;
-}
+// .footer__links {
+//   margin-left: 625px;
+// }
+
 .footer__link {
   margin-right: 80px;
   text-decoration: none;
