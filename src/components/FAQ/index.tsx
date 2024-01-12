@@ -1,4 +1,5 @@
-import React from "react";
+"use client";
+import React, { useState } from "react";
 import "./index.scss";
 import Image from "next/image";
 import fire from "../../../public/assets/images/shape/fire.png";
@@ -30,6 +31,13 @@ const data = [
 ];
 
 export default function FAQ({}: Props) {
+  const [active, setActive] = useState("1");
+
+  const changeActive = (val: string) => {
+    console.log(val);
+    setActive(val);
+  };
+
   return (
     <div className="faq">
       <div className="faq__image">
@@ -44,7 +52,12 @@ export default function FAQ({}: Props) {
       </div>
       <div className="faq__accordion">
         {data?.map((x) => (
-          <Accordion data={x} key={x?.id} />
+          <Accordion
+            data={x}
+            key={x?.id}
+            currentActive={active}
+            clickEvent={changeActive}
+          />
         ))}
       </div>
     </div>

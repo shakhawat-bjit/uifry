@@ -8,22 +8,46 @@ type Props = {
     description1: string;
     description2: string;
   };
+  currentActive: string;
+  clickEvent: (val: string) => void;
 };
 
-export default function Accordion({ data }: Props) {
+export default function Accordion({ data, currentActive, clickEvent }: Props) {
   //   console.log(data?.description1);
   return (
     <div className="accordion">
-      <div className="accordion__title">
-        <p className="accordion__title__text">{data?.title}</p>
-        <div className="accordion__title__icon">{/* + */}-</div>
+      <div
+        className={`accordion__title ${
+          currentActive == data?.id && "accordion__title--bg-sage-violet "
+        }`}
+        onClick={() => clickEvent(data?.id)}
+      >
+        <p
+          className={`accordion__title__text  ${
+            currentActive == data?.id && " accordion__title__text--white"
+          } `}
+        >
+          {data?.title}
+        </p>
+        <div
+          className={`accordion__title__icon  ${
+            currentActive == data?.id && " accordion__title__icon--white"
+          } `}
+        >
+          {currentActive == data?.id ? "-" : "+"}
+        </div>
       </div>
-      <div className="accordion__body">
+      <div
+        className={`accordion__body  ${
+          currentActive == data?.id
+            ? " accordion__body--show  "
+            : " accordion__body--hide"
+        } `}
+      >
         <p className="accordion__body_text">{data?.description1}</p>
         <br />
         <br />
         <p className="accordion__body_text">{data?.description1}</p>
-        <br />
       </div>
     </div>
   );
