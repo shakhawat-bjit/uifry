@@ -24,19 +24,19 @@ export default function BannerContent({}: Props) {
       <div className="banner__buttons">
         <Button
           clickEvent={() => console.log("Contact Now")}
-          className="banner__button button--md--bride-blush"
+          className="banner__button button--md button--text-midnight-blue    button--bg-bride-blush"
         >
           Contact Now{" "}
         </Button>
         <Button
           clickEvent={() => console.log("Contact Now")}
-          className=" banner__button icon-button--sm-white button--border--bride-blush"
+          className=" banner__button icon-button--sm  button--bg-white  button-border--bride-blush"
         >
           <Image src={arrow.src} height={24} width={24} alt=">" />
         </Button>
         <Button
           clickEvent={() => console.log("Contact Now")}
-          className="banner__button button--md--white button--padding--x--zero"
+          className="banner__button  button--md  button--bg-white   button--text-midnight-blue  button-padding-x--zero"
         >
           Book a Demo Today
         </Button>
@@ -44,7 +44,7 @@ export default function BannerContent({}: Props) {
       <div className="banner__star">
         <Button
           clickEvent={() => console.log("Contact Now")}
-          className=" icon-button--sm--bride-blush"
+          className=" icon-button--sm  button--bg-bride-blush"
         >
           <Image src={star.src} height={24} width={24} alt=">" />
         </Button>

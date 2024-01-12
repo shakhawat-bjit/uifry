@@ -23,6 +23,7 @@ export default function Update({ update }: Props) {
           height={269}
           src={update?.image}
           alt={update?.title}
+          className="update-card__image__picture"
         />
       </div>
 
@@ -34,7 +35,7 @@ export default function Update({ update }: Props) {
       <div className="update-card__button">
         <Button
           clickEvent={() => console.log("hi")}
-          className="icon-button--sm-white button--border--bride-blush"
+          className="icon-button--sm  button--bg-white  button-border--bride-blush"
         >
           <Image src={arrow.src} width={24} height={24} alt=">" />
         </Button>

@@ -15,7 +15,7 @@ export default function FeatureList({}: Props) {
       <div className="feature-list__feature">
         <Button
           clickEvent={() => console.log("hi")}
-          className="icon-button--sm--bride-blush"
+          className="icon-button--sm  button--bg-bride-blush button--hover-bg-green"
         >
           <Image src={tick.src} height={24} width={24} alt="tick" />
         </Button>
@@ -26,7 +26,7 @@ export default function FeatureList({}: Props) {
       <div className="feature-list__feature">
         <Button
           clickEvent={() => console.log("hi")}
-          className="icon-button--sm--bride-blush"
+          className="icon-button--sm  button--bg-bride-blush button--hover-bg-green"
         >
           <Image src={time.src} height={24} width={24} alt="time" />
         </Button>
@@ -37,7 +37,7 @@ export default function FeatureList({}: Props) {
       <div className="feature-list__feature">
         <Button
           clickEvent={() => console.log("hi")}
-          className="icon-button--sm--bride-blush"
+          className="icon-button--sm  button--bg-bride-blush button--hover-bg-green"
         >
           <Image src={upload.src} height={24} width={24} alt="upload" />
         </Button>

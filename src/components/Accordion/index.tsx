@@ -44,10 +44,14 @@ export default function Accordion({ data, currentActive, clickEvent }: Props) {
             : " accordion__body--hide"
         } `}
       >
-        <p className="accordion__body_text">{data?.description1}</p>
-        <br />
-        <br />
-        <p className="accordion__body_text">{data?.description1}</p>
+        <p className="accordion__body_text">
+          {data?.description1}
+          <br />
+          <br />
+          {data?.description2}
+        </p>
+
+        {/* <p className="accordion__body_text"></p> */}
       </div>
     </div>
   );

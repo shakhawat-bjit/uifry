@@ -2,6 +2,7 @@
 @use "../../app/styles/fonts" as *;
 
 .accordion {
+  position: relative;
   margin-top: 20px;
   &:first-child {
     margin-top: 0px;
@@ -55,6 +56,7 @@
 
 .accordion__body {
   padding: 23px 35px 20px 44px;
+  position: absolute;
 }
 
 .accordion__body--hide {
@@ -63,7 +65,9 @@
 
 .accordion__body--show {
   display: block;
-  animation: slideInFromTop 0.5s ease;
+  animation: slideInFromTop1 0.5s ease;
+  position: relative;
+  z-index: -4;
 }
 
 .accordion__body_text {
@@ -72,13 +76,23 @@
   font-weight: 400;
   line-height: 28px;
   color: $color-midnight-blue;
+  animation: text-animation 0.5s ease-in;
 }
 
-@keyframes slideInFromTop {
+@keyframes slideInFromTop1 {
   from {
-    transform: translateY(-100%);
+    top: -100px;
   }
   to {
-    transform: translateX(0);
+    top: 0px;
+  }
+}
+
+@keyframes text-animation {
+  from {
+    opacity: 0.8;
+  }
+  to {
+    opacity: 1;
   }
 }

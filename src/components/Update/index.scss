@@ -1,8 +1,15 @@
 @use "../../app//styles/colors" as *;
 @use "../../app/styles/fonts" as *;
 
+.update-card {
+  width: 100%;
+}
+
 .update-card__body {
   margin-top: 20px;
+}
+.update-card__image__picture {
+  width: 100%;
 }
 
 .update-card__body__tag {

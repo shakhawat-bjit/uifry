@@ -5,9 +5,7 @@
   cursor: pointer;
 }
 
-.button--md--bride-blush {
-  background-color: $color-bride-blush;
-  color: $color-midnight-blue;
+.button--md {
   border-radius: 5px;
   padding: 16px 24px;
   font-family: $plus-jakarta-sans;
@@ -17,11 +15,10 @@
   text-transform: capitalize;
 }
 
-.button--lg--bride-blush {
-  background-color: $color-bride-blush;
-  color: $color-midnight-blue;
+.button--lg {
+  width: 447px;
   border-radius: 5px;
-  padding: 16px 24px;
+  padding: 18px 24px;
   font-family: $plus-jakarta-sans;
   font-weight: 700;
   line-height: 17.5px;
@@ -33,19 +30,8 @@
   align-items: center;
 }
 
-.button--md--white {
-  background-color: $color-white;
-  color: $color-midnight-blue;
-  border-radius: 5px;
-  padding: 16px 24px;
-  font-family: $plus-jakarta-sans;
-  font-weight: 700;
-  line-height: 17.5px;
-  border: 0px;
-}
-
-.icon-button--sm-white {
-  background-color: $color-white;
+.icon-button--sm {
+  // background-color: $color-white;
   border-radius: 5px;
   padding: 13px 12px;
   display: flex;
@@ -54,22 +40,31 @@
   border: 0px;
 }
 
-.button--border--bride-blush {
+.button--text-midnight-blue {
+  color: $color-midnight-blue;
+}
+
+.button--bg-bride-blush {
+  background-color: $color-bride-blush;
+}
+
+.button--hover-bg-green:hover {
+  background-color: $color-lavender-blue;
+}
+
+.button--bg-white {
+  background-color: $color-white;
+}
+
+.button-border--bride-blush {
   border: 1px solid $color-bride-blush;
 }
 
-.button--padding--x--zero {
+.button-padding-x--zero {
   padding-left: 0px;
   padding-right: 0px;
 }
 
-.icon-button--sm--bride-blush {
-  background-color: $color-bride-blush;
-  border-radius: 5px;
-  padding: 13px 12px;
-  border: 0px;
-
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.button-bg--lavender-blue {
+  background-color: $color-lavender-blue;
 }

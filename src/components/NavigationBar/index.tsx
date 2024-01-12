@@ -49,14 +49,14 @@ export default function NavigationBar({}: Props) {
         <div className="navbar__contact">
           <Button
             clickEvent={() => console.log("Contact Now")}
-            className="button--md--bride-blush"
+            className="button--md button--text-midnight-blue    button--bg-bride-blush"
           >
             Contact Now
           </Button>
         </div>
         <div className="navbar__category">
           <Button
-            className="icon-button--sm--bride-blush"
+            className="icon-button--sm  button--bg-bride-blush"
             clickEvent={() => {
               setShow(true);
               // console.log("click categiry button");

@@ -22,7 +22,7 @@ export default function BusinessContent({}: Props) {
         <div className="business-content__check">
           <Button
             clickEvent={() => console.log("hi")}
-            className=" icon-button--sm--bride-blush"
+            className=" icon-button--sm  button--bg-bride-blush"
           >
             <Image src={tick.src} height={24} width={24} alt=">" />
           </Button>
@@ -33,7 +33,7 @@ export default function BusinessContent({}: Props) {
         <div className="business-content__check">
           <Button
             clickEvent={() => console.log("hi")}
-            className=" icon-button--sm--bride-blush"
+            className=" icon-button--sm  button--bg-bride-blush"
           >
             <Image src={tick.src} height={24} width={24} alt=">" />
           </Button>
@@ -45,19 +45,19 @@ export default function BusinessContent({}: Props) {
       <div className="business-content__buttons">
         <Button
           clickEvent={() => console.log("hi")}
-          className="business-content__button button--md--bride-blush"
+          className="business-content__button button--md button--text-midnight-blue    button--bg-bride-blush"
         >
           Contact Now{" "}
         </Button>
         <Button
           clickEvent={() => console.log("hi")}
-          className=" business-content__button icon-button--sm-white button--border--bride-blush"
+          className=" business-content__button icon-button--sm  button--bg-white  button-border--bride-blush"
         >
           <Image src={arrow.src} height={24} width={24} alt=">" />
         </Button>
         <Button
           clickEvent={() => console.log("hi")}
-          className="business-content__button button--md--white button--padding--x--zero"
+          className="business-content__button  button--md  button--bg-white   button--text-midnight-blue  button-padding-x--zero"
         >
           Book a Demo Today
         </Button>
