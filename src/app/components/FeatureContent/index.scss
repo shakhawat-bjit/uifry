@@ -1,0 +1,47 @@
+@use "../../styles/index.scss" as *;
+
+.feature-section__content {
+  min-width: 450px;
+}
+
+.feature-section__content__heading {
+  font-family: $plus-jakarta-sans;
+  font-size: 38px;
+  font-weight: 700;
+  line-height: 46px;
+  color: $color-azulado;
+}
+.feature-section__content__description {
+  font-family: $plus-jakarta-sans;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  text-align: justify;
+  margin-top: 40px;
+  color: $color-midnight-blue;
+}
+
+.feature-section__content__feature-wrapper {
+  margin-top: 40px;
+}
+
+.feature-section__feature {
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+
+  margin-top: 40px;
+  margin-right: 32px;
+  &:last-child {
+    margin-right: 0px;
+  }
+}
+
+.feature-section__feature__title {
+  font-family: $plus-jakarta-sans;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: $color-midnight-blue;
+  margin-left: 19.74px;
+}
