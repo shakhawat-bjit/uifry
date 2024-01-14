@@ -10,7 +10,7 @@ export default function FeatureImage({}: Props) {
     <div className="feature-section_image-wrapper">
       <Image
         src={user.src}
-        width={562.12}
+        width={565}
         height={573}
         alt="user image"
         className="feature-section__image"

@@ -62,25 +62,20 @@
   display: none;
 }
 
-// @media screen and (max-width: 428px) {
-//   .navbar__body {
-//     margin-left: 20px;
-//     margin-right: 20px;
-//     margin-top: 30px;
-//     display: flex;
-//     align-items: center;
-//     justify-content: space-between;
-//   }
+@media screen and (max-width: 428px) {
+  .navbar-body {
+    max-width: 388px;
+  }
 
-//   .navbar__links {
-//     display: none;
-//   }
+  .navbar-body__link-wrapper {
+    display: none;
+  }
 
-//   .navbar__contact {
-//     display: none;
-//   }
+  .navbar-body__button-wrapper {
+    display: none;
+  }
 
-//   .navbar__category {
-//     display: block;
-//   }
-// }
+  .navbar-body__responsive-button {
+    display: block;
+  }
+}
