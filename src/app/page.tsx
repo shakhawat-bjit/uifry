@@ -1,16 +1,16 @@
 import Image from "next/image";
 // import styles from './page.module.scss'
 import "./page.scss";
-import NavigationBar from "@/components/NavigationBar";
-import Banner from "@/components/Banner";
-import Clients from "@/components/Clients";
-import Footer from "@/components/Footer";
-import FeatureList from "@/components/FeatureList";
-import Feature from "@/components/Feature";
-import ContactForm from "@/components/ContactForm";
-import Updates from "@/components/Updates";
-import Business from "@/components/Business";
-import FAQ from "@/components/FAQ";
+import NavigationBar from "./components/NavigationBar";
+import Banner from "./components/Banner";
+import Clients from "./components/Clients";
+import Feature from "./components/Feature";
+import FeatureList from "./components/FeatureList";
+import Contact from "./components/Contact";
+import Updates from "./components/Updates";
+import Business from "./components/Business";
+import Faq from "./components/Faq";
+import Footer from "./components/Footer";
 
 export default function Home() {
   return (
@@ -20,11 +20,11 @@ export default function Home() {
       <Clients />
       <Feature />
       <FeatureList />
-      <ContactForm />
+      <Contact />
       <Updates />
       <Business />
       <FeatureList />
-      <FAQ />
+      <Faq />
       <Footer />
     </main>
   );

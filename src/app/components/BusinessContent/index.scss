@@ -1,0 +1,56 @@
+@use "../../styles/index.scss" as *;
+
+.business-section__content {
+  max-width: 530px;
+  font-family: $plus-jakarta-sans;
+}
+
+.business-section__content__heading {
+  font-size: 38px;
+  font-weight: 700;
+  line-height: 46px;
+  color: $color-azulado;
+}
+
+.business-section__content__description {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  text-align: justify;
+  margin-top: 40px;
+  color: $color-midnight-blue;
+}
+
+.business-section__content__button-wrapper {
+  margin-top: 40px;
+  display: flex;
+  align-items: center;
+}
+
+.business-section__content__button {
+  margin-right: 20px;
+  &:last-child {
+    margin-right: 0px;
+  }
+}
+
+.business-section__content__feature-wrapper {
+  margin-top: 40px;
+}
+
+.business-section__content__feature {
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  &:last-child {
+    margin-bottom: 0px;
+  }
+}
+
+.business-section__content__feature__title {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: $color-midnight-blue;
+  margin-left: 19.74px;
+}

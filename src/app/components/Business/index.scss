@@ -1,0 +1,10 @@
+@use "../../styles/index.scss" as *;
+
+.business-section {
+  margin-top: 146px;
+  max-width: 1277px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: space-between;
+}
