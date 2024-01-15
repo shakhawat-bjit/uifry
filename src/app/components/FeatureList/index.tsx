@@ -3,9 +3,6 @@ import React from "react";
 import "./index.scss";
 import Button from "../Button";
 import Image from "next/image";
-import tick from "../../../../public/assets/icons/icon/TickSquare.png";
-import upload from "../../../../public/assets/icons/icon/Upload.png";
-import time from "../../../../public/assets/icons/icon/TimeCircle.png";
 
 export type features = {
   featureList: {
@@ -22,15 +19,15 @@ export type features = {
 };
 
 type Props = {
-  featuresData: features;
+  featuresListData: features;
 };
 
-export default function FeatureList({ featuresData }: Props) {
+export default function FeatureList({ featuresListData }: Props) {
   return (
     <div className="feature-list-section">
       <div className="feature-list-section__feature-wrapper">
-        {featuresData?.featureList?.map((feature) => (
-          <div className="feature-list-section__feature">
+        {featuresListData?.featureList?.map((feature, index) => (
+          <div key={index} className="feature-list-section__feature">
             <Button
               size={feature?.button?.size}
               className="bg-bride-blush feature-list-section__feature__button"

@@ -1,6 +1,6 @@
 import { features } from "../components/FeatureList";
 
-export const featuresData: features = {
+export const featuresListData: features = {
   featureList: [
     {
       button: {

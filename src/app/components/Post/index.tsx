@@ -33,11 +33,7 @@ export default function Post({ post }: Props) {
       </div>
 
       <div className="update-section__post__content__button">
-        <Button
-          size="small"
-          clickEvent={() => console.log("hi")}
-          className=" bg-white  border-bride-blush"
-        >
+        <Button size="small" className=" bg-white  border-bride-blush">
           <Image src={arrow.src} width={24} height={24} alt=">" />
         </Button>
       </div>

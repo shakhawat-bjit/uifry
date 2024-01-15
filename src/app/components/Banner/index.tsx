@@ -11,6 +11,7 @@ export type banner = {
     link: string;
     content: string;
     image?: string;
+    imageAlt?: string;
     class: string;
     size: "small" | "medium" | "large";
   }[];
@@ -26,7 +27,6 @@ type Props = {
 export default function Banner({ bannerData }: Props) {
   const { image, ...content } = bannerData;
 
-  // console.log("image ", image);
   return (
     <div className="banner-section">
       <BannerContent bannerContentData={content} />

@@ -12,6 +12,7 @@ type bannerContent = {
     link: string;
     content: string;
     image?: string;
+    imageAlt?: string;
     class: string;
     size: "small" | "medium" | "large";
   }[];
@@ -33,18 +34,19 @@ export default function BannerContent({ bannerContentData }: Props) {
       <h2 className="banner-section__heading">{heading}</h2>
       <p className="banner-section__description">{description}</p>
       <div className="banner-section__button-wrapper">
-        {buttons?.map((button) => (
+        {buttons?.map((button, index) => (
           <Button
+            key={index}
             size={button?.size}
             className={`${button?.class} banner-section__button`}
           >
             {button?.content}
-            {button?.image && (
+            {button?.image && button?.imageAlt && (
               <Image
                 src={button?.image}
                 height={24}
                 width={24}
-                alt="rigtArrow"
+                alt={button?.imageAlt}
               />
             )}
           </Button>

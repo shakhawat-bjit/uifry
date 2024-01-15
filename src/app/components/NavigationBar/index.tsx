@@ -30,7 +30,6 @@ type Props = {
 };
 
 export default function NavigationBar({ navigationBarData }: Props) {
-  // console.log(navigationBarData);
   const { links, buttons, logo, title } = navigationBarData;
   const [show, setShow] = useState(false);
 
@@ -65,8 +64,9 @@ export default function NavigationBar({ navigationBarData }: Props) {
         </div>
 
         <div className="navbar__body__button-wrapper">
-          {buttons?.map((button) => (
+          {buttons?.map((button, index) => (
             <Button
+              key={index}
               size={button?.size}
               className="text-midnight-blue bg-bride-blush"
             >

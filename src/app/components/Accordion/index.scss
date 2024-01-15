@@ -9,6 +9,7 @@
 }
 
 .accordion__title {
+  cursor: pointer;
   padding: 23px 47px;
   display: flex;
   align-items: center;
@@ -60,7 +61,6 @@
 
 .accordion__body--hide {
   display: none;
-
   // transform: display 2s;
   // animation: slideOutFromBottom 0.5s ease;
 }

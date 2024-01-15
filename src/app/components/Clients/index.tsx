@@ -19,8 +19,8 @@ export default function Clients({ clientsData }: Props) {
     <div className="client-section">
       <p className="client-section_title">{clientsData?.title}</p>
       <div className="client-section_logo-wrapper">
-        {clientsData?.clientList?.map((client) => (
-          <div className="client-section-logo">
+        {clientsData?.clientList?.map((client, index) => (
+          <div key={index} className="client-section-logo">
             <Image
               className="client-section-logo__image"
               src={client?.image}

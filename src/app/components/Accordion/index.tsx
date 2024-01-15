@@ -50,8 +50,6 @@ export default function Accordion({ data, currentActive, clickEvent }: Props) {
           <br />
           {data?.description2}
         </p>
-
-        {/* <p className="accordion__body_text"></p> */}
       </div>
     </div>
   );
