@@ -3,3 +3,9 @@
 .contact-section__image {
   max-width: 679px;
 }
+
+@media screen and (max-width: 428px) {
+  .contact-section__image {
+    width: 100%;
+  }
+}

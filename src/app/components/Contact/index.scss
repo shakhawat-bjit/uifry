@@ -9,3 +9,12 @@
   display: flex;
   justify-content: space-between;
 }
+
+@media screen and (max-width: 428px) {
+  .contact-section {
+    margin-top: 63px;
+    max-width: 383px;
+    flex-direction: column;
+    gap: 23px;
+  }
+}

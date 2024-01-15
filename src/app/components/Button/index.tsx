@@ -5,6 +5,7 @@ type Props = {
   className?: string;
   children: React.ReactNode;
   clickEvent: any;
+  size?: "small" | "medium" | "large";
 };
 
 export default function Button({ className, children, clickEvent }: Props) {

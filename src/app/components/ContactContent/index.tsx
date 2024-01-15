@@ -41,7 +41,7 @@ export default function ContactContent({}: Props) {
             className="contact-section__content__input"
           />
         </div>
-        <div>
+        <div className="contact-section__content__form__button-wrapper">
           <Button
             clickEvent={() => console.log("hi")}
             className="button--lg button--bg-bride-blush  button--text-midnight-blue"
