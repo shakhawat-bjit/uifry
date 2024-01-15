@@ -13,6 +13,7 @@ const buttons = [
     class: "bg-white  border-bride-blush ",
     size: "small" as "small" | "medium" | "large",
     image: "/assets/icons/icon/ArrowRight.png",
+    imageAlt:">"
   },
   {
     link: "/",

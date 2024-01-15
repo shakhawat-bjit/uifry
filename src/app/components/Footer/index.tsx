@@ -1,11 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
-import insta from "../../../../public/assets/icons/social/instagram.png";
-import flickr from "../../../../public/assets/icons/social/flickr.png";
-import pinterest from "../../../../public/assets/icons/social/pinterest.png";
-import twitter from "../../../../public/assets/icons/social/twitter.png";
-import logo from "../../../../public/assets/images/logo.png";
 import "./index.scss";
 
 export type footer = {

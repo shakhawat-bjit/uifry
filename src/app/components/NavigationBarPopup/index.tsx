@@ -3,6 +3,8 @@ import React, { Dispatch, SetStateAction } from "react";
 import "./index.scss";
 import Link from "next/link";
 import Button from "../Button";
+import close from "../../../../public/assets/icons/icon/cross.png";
+import Image from "next/image";
 
 type Props = {
   show: boolean;
@@ -14,7 +16,6 @@ type Props = {
 };
 
 export default function NavigationBarPopup({ show, setShow, links }: Props) {
-  // console.log("show ---- ", show);
   return (
     <div className={`navbar-popup ${show ? "visible" : "not-visible"}  `}>
       <div className="navbar-popup--close">
@@ -25,15 +26,15 @@ export default function NavigationBarPopup({ show, setShow, links }: Props) {
             setShow(false);
           }}
         >
-          Close
+          <Image src={close?.src} width={20} height={20} alt="X" />
         </Button>
       </div>
 
-      <div className="navbar-popup__links">
+      <div className="navbar-popup__link-wrapper">
         {links.map((link) => (
           <Link
             href={link?.link}
-            className="navbar__body__link"
+            className="navbar-popup__link"
             key={link?.content}
           >
             {link?.content}

@@ -24,7 +24,7 @@
   margin-right: 10px;
 }
 
-.navbar-popup__links {
+.navbar-popup__link-wrapper {
   display: flex;
   flex-direction: column;
 }
@@ -32,7 +32,7 @@
 .navbar-popup__link {
   text-decoration: none;
   color: $color-white;
-  padding: 12px 0px;
+  padding: 20px 0px;
   text-align: center;
   border-bottom: 0.7px solid $color-bride-blush;
 

@@ -55,7 +55,6 @@ export default function Faq({ faqData }: Props) {
           className="faq-section__image"
         />
       </div>
-
       <div className="faq-section__heading">
         <h2 className="faq-section__heading__title">{faqData?.heading}</h2>
         <p className="faq-section__heading__description">

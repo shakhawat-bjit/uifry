@@ -33,10 +33,10 @@ export default function Home() {
       <FeatureList featuresListData={featuresListData} />
       <Contact contactData={contactData} />
       <Updates updatesData={updatesData} />
-      <Business businessData={businessData} />
+      {/* <Business businessData={businessData} />
       <FeatureList featuresListData={featuresListData} />
       <Faq faqData={faqData} />
-      <Footer footerData={footerData} />
+      <Footer footerData={footerData} /> */}
     </main>
   );
 }

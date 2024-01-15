@@ -1,7 +1,6 @@
 import React from "react";
 import "./index.scss";
 import Image from "next/image";
-import arrow from "../../../../public/assets/icons/icon/ArrowRight.png";
 import star from "../../../../public/assets/icons/icon/Star.png";
 import Button from "../Button";
 

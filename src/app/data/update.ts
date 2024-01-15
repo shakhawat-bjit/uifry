@@ -22,5 +22,7 @@ const posts = [
   export const updatesData ={
     heading:"Our latest updates for you here!",
     description:"Whats heppening around the World.",
+    headingImage:"/assets/images/shape/fire.png",
+    headingImageAlt:"fire",
     posts:posts
   }
