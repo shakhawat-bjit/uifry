@@ -16,6 +16,8 @@ import { bannerData } from "./data/banner";
 import { navigationBarData } from "./data/navigationBar";
 import { clientsData } from "./data/clients";
 import { featureData } from "./data/feature";
+import { featuresData } from "./data/featureList";
+import { contactData } from "./data/contact";
 
 export default function Home() {
   // console.log(navigationBarData);
@@ -25,11 +27,11 @@ export default function Home() {
       <Banner bannerData={bannerData} />
       <Clients clientsData={clientsData} />
       <Feature featureData={featureData} />
-      <FeatureList />
-      <Contact />
+      <FeatureList featuresData={featuresData} />
+      <Contact contactData={contactData} />
       <Updates />
       <Business />
-      <FeatureList />
+      <FeatureList featuresData={featuresData} />
       <Faq />
       <Footer />
     </main>
