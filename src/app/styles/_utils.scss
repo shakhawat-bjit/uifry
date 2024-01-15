@@ -1,0 +1,27 @@
+@import "colors";
+@import "fonts";
+
+.text-midnight-blue {
+  color: $color-midnight-blue;
+}
+
+.bg-bride-blush {
+  background-color: $color-bride-blush;
+}
+
+.bg-white {
+  background-color: $color-white;
+}
+
+.border-bride-blush {
+  border: 1px solid $color-bride-blush;
+}
+
+.padding-x-zero {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.bg-lavender-blue {
+  background-color: $color-lavender-blue;
+}

@@ -1,69 +1,60 @@
 @use "../../styles/index.scss" as *;
 
-.button-design {
+.button {
   cursor: pointer;
+  border-radius: 5px;
+  font-family: $plus-jakarta-sans;
+  font-weight: 700;
+  line-height: 17.5px;
+  text-transform: capitalize;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  border: 0px;
 }
 
-.button--md {
-  border-radius: 5px;
+.button-medium {
   padding: 16px 24px;
-  font-family: $plus-jakarta-sans;
-  font-weight: 700;
-  line-height: 17.5px;
-  border: 0px;
-  text-transform: capitalize;
 }
 
-.button--lg {
+.button-large {
   width: 100%;
-  border-radius: 5px;
-  padding: 18px 24px;
-  font-family: $plus-jakarta-sans;
-  font-weight: 700;
-  line-height: 17.5px;
-  border: 0px;
-  text-transform: capitalize;
-
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  // padding: 18px 24px;
+  padding-top: 18px;
+  padding-bottom: 18px;
 }
 
-.icon-button--sm {
-  // background-color: $color-white;
-  border-radius: 5px;
+.button-small {
   padding: 13px 12px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border: 0px;
 }
 
-.button--text-midnight-blue {
-  color: $color-midnight-blue;
-}
+// .button--text-midnight-blue {
+//   color: $color-midnight-blue;
+// }
 
-.button--bg-bride-blush {
-  background-color: $color-bride-blush;
-}
+// .button--bg-bride-blush {
+//   background-color: $color-bride-blush;
+// }
 
-.button--hover-bg-green:hover {
-  background-color: $color-lavender-blue;
-}
+// .button--hover-bg-green:hover {
+//   background-color: $color-lavender-blue;
+// }
 
-.button--bg-white {
-  background-color: $color-white;
-}
+// .button--bg-white {
+//   background-color: $color-white;
+// }
 
-.button-border--bride-blush {
-  border: 1px solid $color-bride-blush;
-}
+// .button-border--bride-blush {
+//   border: 1px solid $color-bride-blush;
+// }
 
-.button-padding-x--zero {
-  padding-left: 0px;
-  padding-right: 0px;
-}
+// .button-padding-x--zero {
+//   padding-left: 0px;
+//   padding-right: 0px;
+// }
 
-.button-bg--lavender-blue {
-  background-color: $color-lavender-blue;
-}
+// .button-bg--lavender-blue {
+//   background-color: $color-lavender-blue;
+// }

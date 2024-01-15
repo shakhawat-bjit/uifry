@@ -21,8 +21,9 @@ export default function BusinessContent({}: Props) {
       <div className="business-section__content__feature-wrapper">
         <div className="business-section__content__feature">
           <Button
+            size="small"
             clickEvent={() => console.log("hi")}
-            className=" icon-button--sm  button--bg-bride-blush"
+            className="bg-bride-blush"
           >
             <Image src={tick.src} height={24} width={24} alt=">" />
           </Button>
@@ -32,8 +33,9 @@ export default function BusinessContent({}: Props) {
         </div>
         <div className="business-section__content__feature">
           <Button
+            size="small"
             clickEvent={() => console.log("hi")}
-            className=" icon-button--sm  button--bg-bride-blush"
+            className=" bg-bride-blush"
           >
             <Image src={tick.src} height={24} width={24} alt=">" />
           </Button>
@@ -44,20 +46,23 @@ export default function BusinessContent({}: Props) {
       </div>
       <div className="business-section__content__button-wrapper">
         <Button
+          size="medium"
           clickEvent={() => console.log("hi")}
-          className="business-section__content__button button--md button--text-midnight-blue    button--bg-bride-blush"
+          className="business-section__content__button text-midnight-blue  bg-bride-blush"
         >
           Contact Now{" "}
         </Button>
         <Button
+          size="small"
           clickEvent={() => console.log("hi")}
-          className=" business-section__content__button icon-button--sm  button--bg-white  button-border--bride-blush"
+          className=" business-section__content__button  bg-white border-bride-blush"
         >
           <Image src={arrow.src} height={24} width={24} alt=">" />
         </Button>
         <Button
+          size="medium"
           clickEvent={() => console.log("hi")}
-          className="business-content__button  button--md  button--bg-white   button--text-midnight-blue  button-padding-x--zero"
+          className="business-section__content__button  bg-white   text-midnight-blue padding-x-zero"
         >
           Book a Demo Today
         </Button>

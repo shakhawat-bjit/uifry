@@ -23,8 +23,9 @@ export default function FeatureContent({}: Props) {
       <div className="feature-section__content__feature-wrapper">
         <div className="feature-section__feature">
           <Button
+            size="small"
             clickEvent={() => console.log("hi")}
-            className=" icon-button--sm  button--bg-bride-blush"
+            className="bg-bride-blush"
           >
             <Image src={tick.src} height={24} width={24} alt=">" />
           </Button>
@@ -35,7 +36,8 @@ export default function FeatureContent({}: Props) {
         <div className="feature-section__feature">
           <Button
             clickEvent={() => console.log("hi")}
-            className=" icon-button--sm  button--bg-bride-blush"
+            size="small"
+            className="bg-bride-blush"
           >
             <Image src={tick.src} height={24} width={24} alt=">" />
           </Button>

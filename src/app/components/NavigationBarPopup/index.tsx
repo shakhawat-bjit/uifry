@@ -7,18 +7,22 @@ import Button from "../Button";
 type Props = {
   show: boolean;
   setShow: Dispatch<SetStateAction<boolean>>;
+  links: {
+    link: string;
+    content: string;
+  }[];
 };
 
-export default function NavigationBarPopup({ show, setShow }: Props) {
+export default function NavigationBarPopup({ show, setShow, links }: Props) {
   // console.log("show ---- ", show);
   return (
     <div className={`navbar-popup ${show ? "visible" : "not-visible"}  `}>
       <div className="navbar-popup--close">
         <Button
+          size="small"
           className=""
           clickEvent={() => {
             setShow(false);
-            // console.log("close click");
           }}
         >
           Close
@@ -26,18 +30,15 @@ export default function NavigationBarPopup({ show, setShow }: Props) {
       </div>
 
       <div className="navbar-popup__links">
-        <Link href="/" className="navbar-popup__link">
-          Home
-        </Link>
-        <Link href="/" className="navbar-popup__link">
-          About
-        </Link>
-        <Link href="/" className="navbar-popup__link">
-          Pricing
-        </Link>
-        <Link href="/" className="navbar-popup__link">
-          Blog
-        </Link>
+        {links.map((link) => (
+          <Link
+            href={link?.link}
+            className="navbar__body__link"
+            key={link?.content}
+          >
+            {link?.content}
+          </Link>
+        ))}
       </div>
     </div>
   );

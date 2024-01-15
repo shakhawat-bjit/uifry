@@ -91,20 +91,20 @@ export default function Faq({}: Props) {
       </div>
       <div className="faq-section__button-wrapper">
         <Button
-          clickEvent={() => console.log("Contact Now")}
-          className="faq-section__button button--md button--text-midnight-blue    button--bg-bride-blush"
+          size="medium"
+          className="faq-section__button  text-midnight-blue  bg-bride-blush"
         >
           Contact Now{" "}
         </Button>
         <Button
-          clickEvent={() => console.log("Contact Now")}
-          className=" faq-section__button icon-button--sm  button--bg-white  button-border--bride-blush"
+          size="small"
+          className=" faq-section__button  bg-white  border--bride-blush"
         >
           <Image src={arrow.src} height={24} width={24} alt=">" />
         </Button>
         <Button
-          clickEvent={() => console.log("Contact Now")}
-          className="faq-section__button button--md  button--bg-white   button--text-midnight-blue  button-padding-x--zero"
+          size="medium"
+          className="faq-section__button  bg-white   text-midnight-blue padding-x-zero"
         >
           Book a Demo Today
         </Button>

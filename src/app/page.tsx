@@ -11,26 +11,22 @@ import Updates from "./components/Updates";
 import Business from "./components/Business";
 import Faq from "./components/Faq";
 import Footer from "./components/Footer";
-import {
-  buttons,
-  logo,
-  navLinks,
-} from "../../public/assets/data/NavigationBar";
+import { navigationBar } from "./data/NavigationBar";
 
 export default function Home() {
   return (
     <main className="parent-container">
-      <NavigationBar navLinks={navLinks} logo={logo} buttons={buttons} />
+      <NavigationBar navigationBarData={navigationBar} />
       <Banner />
       <Clients />
       <Feature />
       <FeatureList />
       <Contact />
-      {/* <Updates />
+      <Updates />
       <Business />
       <FeatureList />
       <Faq />
-      <Footer /> */}
+      <Footer />
     </main>
   );
 }

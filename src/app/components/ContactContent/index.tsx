@@ -35,7 +35,7 @@ export default function ContactContent({}: Props) {
           />
         </div>
         <div className="contact-section__content__form__input-wrapper">
-          <Image src={send.src} width={24} height={24} alt="profile" />
+          <Image src={send.src} width={24} height={24} alt="send" />
           <input
             placeholder="Email address"
             className="contact-section__content__input"
@@ -43,8 +43,9 @@ export default function ContactContent({}: Props) {
         </div>
         <div className="contact-section__content__form__button-wrapper">
           <Button
+            size="large"
             clickEvent={() => console.log("hi")}
-            className="button--lg button--bg-bride-blush  button--text-midnight-blue"
+            className="bg-bride-blush  text-midnight-blue"
           >
             <span style={{ marginRight: "8px" }}>Contact Now</span>
             <Image src={arrowRight.src} width={24} height={24} alt="profile" />
