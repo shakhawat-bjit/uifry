@@ -2,18 +2,35 @@
 import React, { useState } from "react";
 import "./index.scss";
 import Link from "next/link";
-// import logo from "../../../../public/assets/images/logo.png";
 import Image from "next/image";
 import Button from "../Button";
 import cat from "../../../../public/assets/icons/icon/Category.png";
 import NavigationBarPopup from "../NavigationBarPopup";
-import { navigationbar } from "@/app/types/navigationBar.type";
+
+export type navigationBar = {
+  title: string;
+  links: {
+    link: string;
+    content: string;
+  }[];
+  logo: {
+    link: string;
+    imageSrc: string;
+  };
+  buttons: {
+    link: string;
+    content: string;
+    class: string;
+    size: "small" | "medium" | "large";
+  }[];
+};
 
 type Props = {
-  navigationBarData: navigationbar;
+  navigationBarData: navigationBar;
 };
 
 export default function NavigationBar({ navigationBarData }: Props) {
+  // console.log(navigationBarData);
   const { links, buttons, logo, title } = navigationBarData;
   const [show, setShow] = useState(false);
 

@@ -11,15 +11,20 @@ import Updates from "./components/Updates";
 import Business from "./components/Business";
 import Faq from "./components/Faq";
 import Footer from "./components/Footer";
-import { navigationBar } from "./data/NavigationBar";
+
+import { bannerData } from "./data/banner";
+import { navigationBarData } from "./data/navigationBar";
+import { clientsData } from "./data/clients";
+import { featureData } from "./data/feature";
 
 export default function Home() {
+  // console.log(navigationBarData);
   return (
     <main className="parent-container">
-      <NavigationBar navigationBarData={navigationBar} />
-      <Banner />
-      <Clients />
-      <Feature />
+      <NavigationBar navigationBarData={navigationBarData} />
+      <Banner bannerData={bannerData} />
+      <Clients clientsData={clientsData} />
+      <Feature featureData={featureData} />
       <FeatureList />
       <Contact />
       <Updates />

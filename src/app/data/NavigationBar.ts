@@ -1,6 +1,6 @@
-import { navigationbar } from "../types/navigationBar.type";
+import { navigationBar } from "../components/NavigationBar";
 
-const navbarTitle = "This is an announcement tagline for you to insert";
+const title = "This is an announcement tagline for you to insert";
 
 const navLinks = [
   { link: "/home", content: "Home" },
@@ -23,9 +23,9 @@ const buttons = [
   },
 ];
 
-export const navigationBar: navigationbar = {
-  title: navbarTitle,
+export const navigationBarData: navigationBar = {
   links: navLinks,
+  title: title,
   logo: logo,
   buttons: buttons,
 };

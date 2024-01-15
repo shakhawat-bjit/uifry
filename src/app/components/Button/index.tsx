@@ -16,7 +16,7 @@ export default function Button({
 }: Props) {
   return (
     <button
-      className={`button button-${size}  ${className}`}
+      className={`button button--${size}  ${className}`}
       onClick={clickEvent}
     >
       {children}

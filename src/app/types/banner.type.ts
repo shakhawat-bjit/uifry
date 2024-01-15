@@ -1,15 +1,11 @@
 export type banner = {
-  navbarTitle: string;
-  navLinks: {
-    link: string;
-    content: string;
-  }[];
-  logo: {
-    link: string;
-    imageSrc: string;
-  };
+  heading: string;
+  description: string;
   buttons: {
     link: string;
     content: string;
   }[];
+  reviews: number;
+  ratings: number;
+  image: "/public/assets/images/group/image-1.png";
 };
