@@ -44,12 +44,15 @@
   .accordion__title__text {
     font-weight: 700;
   }
+  .accordion__title__icon {
+    font-weight: 700;
+  }
 }
 
 .accordion__body {
   max-height: 0;
   // overflow: hidden;
-  transition: max-height 0.7s ease-in-out;
+  transition: max-height 0.4s ease-in-out;
 }
 
 .accordion__body__text {

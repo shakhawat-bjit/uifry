@@ -26,19 +26,17 @@
   margin-top: 40px;
 }
 
-.feature-section__feature {
-  margin-bottom: 20px;
+.feature-section__content__feature {
   display: flex;
   align-items: center;
-
-  margin-top: 40px;
-  margin-right: 32px;
-  &:last-child {
-    margin-right: 0px;
-  }
+  margin-top: 12px;
 }
 
-.feature-section__feature__title {
+.feature-section__content__feature_button-wrapper {
+  margin-top: 40px;
+}
+
+.feature-section__content__feature__title {
   font-family: $plus-jakarta-sans;
   font-weight: 400;
   font-size: 16px;

@@ -6,7 +6,7 @@ export const featuresListData: features = {
       button: {
         link: "/",
         content: "",
-        class: "bg-white  border-bride-blush ",
+        class: "bg-bride-blush  ",
         size: "small" as "small" | "medium" | "large",
         image: "/assets/icons/icon/TickSquare.png",
         imageAlt: "TickSquare",
@@ -17,7 +17,7 @@ export const featuresListData: features = {
       button: {
         link: "/",
         content: "",
-        class: "bg-white  border-bride-blush ",
+        class: "bg-pale-yellow ",
         size: "small" as "small" | "medium" | "large",
         image: "/assets/icons/icon/TimeCircle.png",
         imageAlt: "TimeCircle",
@@ -28,7 +28,7 @@ export const featuresListData: features = {
       button: {
         link: "/",
         content: "",
-        class: "bg-white  border-bride-blush ",
+        class: "bg-lavender-blue ",
         size: "small" as "small" | "medium" | "large",
         image: "/assets/icons/icon/Upload.png",
         imageAlt: "Upload",

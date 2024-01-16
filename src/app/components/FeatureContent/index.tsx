@@ -37,15 +37,17 @@ export default function FeatureContent({ featureContentData }: Props) {
       </p>
       <div className="feature-section__content__feature-wrapper">
         {featureContentData?.features?.map((feature) => (
-          <div className="feature-section__feature" key={feature}>
+          <div className="feature-section__content__feature" key={feature}>
             <Button size="small" className="bg-bride-blush text-midnight-blue">
               <Image src={tick.src} height={24} width={24} alt=">" />
             </Button>
-            <span className="feature-section__feature__title">{feature}</span>
+            <span className="feature-section__content__feature__title">
+              {feature}
+            </span>
           </div>
         ))}
 
-        <div className="feature-section__feature">
+        <div className="feature-section__content__feature_button-wrapper">
           <Button
             size={`${featureContentData?.button?.size}`}
             className={`${featureContentData?.button?.class}  `}

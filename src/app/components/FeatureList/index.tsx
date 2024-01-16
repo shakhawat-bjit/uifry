@@ -30,7 +30,7 @@ export default function FeatureList({ featuresListData }: Props) {
           <div key={index} className="feature-list-section__feature">
             <Button
               size={feature?.button?.size}
-              className="bg-bride-blush feature-list-section__feature__button"
+              className={`feature-list-section__feature__button  ${feature?.button?.class}  `}
             >
               <Image
                 src={feature?.button?.image}

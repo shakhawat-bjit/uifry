@@ -32,10 +32,6 @@
   color: $color-white;
 }
 
-.feature-list-section__feature__button:hover {
-  background-color: $color-lavender-blue;
-}
-
 @media screen and (max-width: 428px) {
   .feature-list-section {
     max-width: 386px;
