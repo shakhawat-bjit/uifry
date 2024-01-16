@@ -40,3 +40,10 @@ export default function Home() {
     </main>
   );
 }
+
+export function generateMetadata() {
+  return {
+    title: "Uifry | Home",
+    description: "This page holds the features of uifry",
+  };
+}

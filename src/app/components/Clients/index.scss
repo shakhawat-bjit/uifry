@@ -13,11 +13,11 @@
 
   border: 1px solid $color-gains-boro;
   border-radius: 5px;
+  box-sizing: border-box;
 
   display: flex;
   justify-content: space-between;
   align-items: center;
-  box-sizing: border-box;
 }
 
 .client-section_title {

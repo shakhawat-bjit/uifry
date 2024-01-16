@@ -12,8 +12,8 @@ export default function BannerImage({ bannerImageData }: Props) {
     <div className="banner-section__image-wrapper">
       <Image
         src={bannerImageData}
-        width={787}
-        height={608}
+        width={724}
+        height={607}
         alt="user image"
         className="banner-section__image"
       />
