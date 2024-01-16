@@ -37,7 +37,7 @@ const buttons = [
   },
 ];
 
-const image = "/assets/images/group/image-2.png";
+const image = "/assets/images/group/image-3.png";
 
 export const contactData: contact = {
   heading: "Let your business thrive under our supervision",

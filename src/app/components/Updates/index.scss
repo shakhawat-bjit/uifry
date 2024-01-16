@@ -12,7 +12,7 @@
   text-align: center;
 }
 
-.faq-section__image-container {
+.update-section__image-wrapper {
   text-align: center;
   display: none;
   margin-bottom: 12.5px;
@@ -49,8 +49,9 @@
 @media screen and (max-width: 428px) {
   .update-section {
     margin-top: 116px;
+    max-width: 383px;
   }
-  .update-section__image-container {
+  .update-section__image-wrapper {
     display: block;
     margin-bottom: 42.5px;
   }

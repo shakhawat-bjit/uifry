@@ -15,31 +15,24 @@
   align-items: center;
   justify-content: space-between;
 
-  color: $color-white;
-  font-size: 16px;
-  font-weight: 700;
-  line-height: 28px;
-
   border-radius: 5px;
   // background-color: $color-sage-violet;
   border: 1px solid $color-midnight-blue;
 }
 
-.accordion__title--bg-sage-violet {
-  background-color: $color-sage-violet;
-}
-
 .accordion__title__text {
   font-family: $plus-jakarta-sans;
   font-size: 16px;
-  font-weight: 700;
+  font-weight: 400;
   line-height: 28px;
   text-align: justify;
   color: $color-midnight-blue;
 }
 
-.accordion__title__text--white {
+.accordion__title__text--active {
+  font-weight: 700;
   color: $color-white;
+  background-color: $color-sage-violet;
 }
 
 .accordion__title__icon {
@@ -105,5 +98,14 @@
   }
   to {
     opacity: 1;
+  }
+}
+
+@media screen and (max-width: 428px) {
+  .accordion__title {
+    padding: 25px 17px 28px 17px;
+  }
+  .accordion__title__text {
+    max-width: 272px;
   }
 }

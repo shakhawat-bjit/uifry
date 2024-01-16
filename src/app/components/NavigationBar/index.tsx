@@ -89,6 +89,7 @@ export default function NavigationBar({ navigationBarData }: Props) {
           show={show}
           setShow={setShow}
           links={navigationBarData?.links}
+          buttons={navigationBarData?.buttons}
         />
       </div>
     </div>

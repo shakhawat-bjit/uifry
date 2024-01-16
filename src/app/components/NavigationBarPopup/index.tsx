@@ -3,7 +3,7 @@ import React, { Dispatch, SetStateAction } from "react";
 import "./index.scss";
 import Link from "next/link";
 import Button from "../Button";
-import close from "../../../../public/assets/icons/icon/cross.png";
+import { ImCross } from "react-icons/im";
 import Image from "next/image";
 
 type Props = {
@@ -13,20 +13,32 @@ type Props = {
     link: string;
     content: string;
   }[];
+  buttons: {
+    link: string;
+    content: string;
+    class: string;
+    size: "small" | "medium" | "large";
+  }[];
 };
 
-export default function NavigationBarPopup({ show, setShow, links }: Props) {
+export default function NavigationBarPopup({
+  show,
+  setShow,
+  links,
+  buttons,
+}: Props) {
   return (
     <div className={`navbar-popup ${show ? "visible" : "not-visible"}  `}>
       <div className="navbar-popup--close">
         <Button
           size="small"
-          className=""
+          className="bg-inherit"
           clickEvent={() => {
             setShow(false);
           }}
         >
-          <Image src={close?.src} width={20} height={20} alt="X" />
+          {/* <Image src={close?.src} width={20} height={20} alt="X" /> */}
+          <ImCross size={20} className="text-white" />
         </Button>
       </div>
 
@@ -39,6 +51,17 @@ export default function NavigationBarPopup({ show, setShow, links }: Props) {
           >
             {link?.content}
           </Link>
+        ))}
+      </div>
+      <div className="navbar-popup_body__button-wrapper">
+        {buttons?.map((button, index) => (
+          <Button
+            key={index}
+            size={button?.size}
+            className="text-midnight-blue bg-bride-blush"
+          >
+            Contact Now
+          </Button>
         ))}
       </div>
     </div>

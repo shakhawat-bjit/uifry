@@ -8,13 +8,13 @@ type Props = {
 
 export default function BusinessImage({ businessImageData }: Props) {
   return (
-    <div className="business-image">
+    <div className="business-section__image-container">
       <Image
         src={businessImageData}
         height={574}
         width={604}
         alt="user image"
-        className="business-image__picture"
+        className="business-section__image"
       />
     </div>
   );

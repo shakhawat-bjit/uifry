@@ -5,12 +5,20 @@
   color: $color-midnight-blue;
 }
 
+.text-white {
+  color: $color-white;
+}
+
 .bg-bride-blush {
   background-color: $color-bride-blush;
 }
 
 .bg-white {
   background-color: $color-white;
+}
+
+.bg-sage-violet {
+  background-color: $color-sage-violet;
 }
 
 .border-bride-blush {
@@ -24,4 +32,7 @@
 
 .bg-lavender-blue {
   background-color: $color-lavender-blue;
+}
+.bg-inherit {
+  background-color: inherit;
 }

@@ -25,7 +25,7 @@ export default function Updates({ updatesData }: Props) {
   return (
     <div className="update-section">
       <div className="update-section__title">
-        <div className="update-section__image-container">
+        <div className="update-section__image-wrapper">
           <Image
             src={updatesData?.headingImage}
             width={52.5}

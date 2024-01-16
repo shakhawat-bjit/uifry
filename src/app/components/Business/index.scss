@@ -8,3 +8,14 @@
   display: flex;
   justify-content: space-between;
 }
+
+@media screen and (max-width: 428px) {
+  .business-section {
+    display: none;
+
+    margin-top: 116px;
+    max-width: 383px;
+    flex-direction: column;
+    gap: 60px;
+  }
+}

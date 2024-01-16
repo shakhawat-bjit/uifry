@@ -1,8 +1,10 @@
 "use client";
+import "./index.scss";
 import Image from "next/image";
 import React, { useState } from "react";
 import Button from "../Button";
-import arrow from "../../../../public/assets/icons/icon/ArrowRight.png";
+import arrowRight from "../../../../public/assets/icons/icon/ArrowRight.png";
+import arrowLeft from "../../../../public/assets/icons/icon/ArrowLeft.png";
 
 type posts = {
   tag: string;
@@ -54,20 +56,20 @@ export default function PostSlider({ posts }: Props) {
         </h3>
       </div>
 
-      <div className="update-section__post-slider__content__button">
+      <div className="update-section__post-slider__content__button-wrapper">
         <Button
           size="small"
-          className=" bg-white  border-bride-blush"
+          className=" update-section__post-slider__content__button bg-white  border-bride-blush"
           clickEvent={previousPost}
         >
-          <Image src={arrow.src} width={24} height={24} alt=">" />
+          <Image src={arrowLeft.src} width={24} height={24} alt=">" />
         </Button>
         <Button
           size="small"
-          className=" bg-white  border-bride-blush"
+          className="update-section__post-slider__content__button bg-white  border-bride-blush"
           clickEvent={nextPost}
         >
-          <Image src={arrow.src} width={24} height={24} alt=">" />
+          <Image src={arrowRight.src} width={24} height={24} alt=">" />
         </Button>
       </div>
     </div>

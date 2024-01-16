@@ -3,9 +3,6 @@ import React from "react";
 import "./index.scss";
 import Button from "../Button";
 import Image from "next/image";
-import profile from "../../../../public/assets/icons/icon/Profile.png";
-import arrowRight from "../../../../public/assets/icons/icon/ArrowRight.png";
-import send from "../../../../public/assets/icons/icon/Send.png";
 
 export type contactContent = {
   heading: string;

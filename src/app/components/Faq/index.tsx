@@ -2,10 +2,8 @@
 import React, { useState } from "react";
 import "./index.scss";
 import Image from "next/image";
-import fire from "../../../../public/assets/images/shape/fire.png";
 import Accordion from "../Accordion";
 import Button from "../Button";
-import arrow from "../../../../public/assets/icons/icon/ArrowRight.png";
 
 export type faq = {
   heading: string;
@@ -33,10 +31,10 @@ type Props = {
 };
 
 export default function Faq({ faqData }: Props) {
-  const [active, setActive] = useState("1");
+  const [active, setActive] = useState("0");
 
   const changeActive = (val: string) => {
-    console.log(val, active);
+    // console.log(val, active);
     if (active == val) {
       setActive("0");
       return;
@@ -46,7 +44,7 @@ export default function Faq({ faqData }: Props) {
 
   return (
     <div className="faq-section">
-      <div className="faq-section__image-container">
+      <div className="faq-section__image-wrapper">
         <Image
           src={faqData?.headingImage}
           width={52.5}
@@ -89,25 +87,6 @@ export default function Faq({ faqData }: Props) {
             )}
           </Button>
         ))}
-
-        {/* <Button
-          size="medium"
-          className="faq-section__button  text-midnight-blue  bg-bride-blush"
-        >
-          Contact Now{" "}
-        </Button>
-        <Button
-          size="small"
-          className=" faq-section__button  bg-white  border-bride-blush"
-        >
-          <Image src={arrow.src} height={24} width={24} alt=">" />
-        </Button>
-        <Button
-          size="medium"
-          className="faq-section__button  bg-white text-midnight-blue padding-x-zero"
-        >
-          Book a Demo Today
-        </Button> */}
       </div>
     </div>
   );

@@ -1,7 +1,6 @@
 import Image from "next/image";
 import React from "react";
 import "./index.scss";
-import user from "../../../../public/assets/images/group/image-3.png";
 
 type Props = {
   contactImageData: string;
