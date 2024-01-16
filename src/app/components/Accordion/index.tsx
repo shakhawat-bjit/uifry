@@ -17,31 +17,21 @@ export default function Accordion({ data, currentActive, clickEvent }: Props) {
     <div className="accordion">
       <div
         className={`accordion__title ${
-          currentActive == data?.id && "bg-sage-violet"
+          currentActive == data?.id ? "accordion__title--active" : " "
         }`}
         onClick={() => clickEvent(data?.id)}
       >
-        <p
-          className={`accordion__title 
-          ${currentActive === data?.id ? "open" : " "}
-          `}
-        >
-          {data?.title}
-        </p>
-        <div
-          className={`accordion__title__icon  
-          ${currentActive === data?.id ? "open" : " "}
-          `}
-        >
+        <p className={`accordion__title__text`}>{data?.title}</p>
+        <div className={`accordion__title__icon`}>
           {currentActive == data?.id ? "-" : "+"}
         </div>
       </div>
       <div
         className={`accordion__body  
-        ${currentActive === data?.id ? "open" : ""}
+        ${currentActive === data?.id ? "open " : " close  "}
         `}
       >
-        <p className="accordion__body_text">
+        <p className="accordion__body__text">
           {data?.description1}
           <br />
           <br />

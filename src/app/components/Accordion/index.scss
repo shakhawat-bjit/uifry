@@ -1,29 +1,78 @@
 @use "../../styles/index.scss" as *;
 
 .accordion {
-  background-color: #f4f4f4;
-  margin-bottom: 5px;
+  margin-top: 20px;
   overflow: hidden;
+  &:first-child {
+    margin-top: 0px;
+  }
 }
 
 .accordion__title {
   cursor: pointer;
-  padding: 10px;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  padding-left: 47px;
+  padding-right: 24px;
   font-weight: bold;
-  transition: background-color 0.3s ease-in-out;
+  transition: background-color 0.4s ease-in-out;
+
+  display: flex;
+  justify-content: space-between;
+  border-radius: 5px;
+  border: 1px solid $color-midnight-blue;
+  color: $color-midnight-blue;
+}
+
+.accordion__title__text {
+  font-family: $plus-jakarta-sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+}
+
+.accordion__title__icon {
+  font-family: $plus-jakarta-sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+}
+
+.accordion__title--active {
+  background-color: $color-sage-violet;
+  color: $color-white;
+  .accordion__title__text {
+    font-weight: 700;
+  }
 }
 
 .accordion__body {
   max-height: 0;
-  overflow: hidden;
-  transition: max-height 1s ease-in-out;
+  // overflow: hidden;
+  transition: max-height 0.7s ease-in-out;
 }
 
-/* Add a class 'open' to style the open accordion items */
-.accordion__title.open {
-  background-color: #ddd;
+.accordion__body__text {
+  font-family: $plus-jakarta-sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  color: $color-midnight-blue;
+
+  padding-top: 23px;
+  padding-left: 44px;
+  padding-right: 35px;
 }
 
 .accordion__body.open {
   max-height: 1000px; /* Adjust as needed based on your content height */
+}
+
+@media screen and (max-width: 428px) {
+  .accordion__title {
+    padding: 25px 17px 28px 17px;
+  }
+  .accordion__title__text {
+    max-width: 272px;
+  }
 }
