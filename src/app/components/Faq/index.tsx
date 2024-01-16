@@ -31,15 +31,12 @@ type Props = {
 };
 
 export default function Faq({ faqData }: Props) {
-  const [active, setActive] = useState("0");
+  const [active, setActive] = useState<string | null>(null);
 
-  const changeActive = (val: string) => {
-    // console.log(val, active);
-    if (active == val) {
-      setActive("0");
-      return;
-    }
-    setActive(val);
+  const toggleAccordion = (index: string) => {
+    setActive((prevIndex: string | null) =>
+      prevIndex === index ? null : index
+    );
   };
 
   return (
@@ -65,10 +62,11 @@ export default function Faq({ faqData }: Props) {
             data={faq}
             key={index}
             currentActive={active}
-            clickEvent={changeActive}
+            clickEvent={toggleAccordion}
           />
         ))}
       </div>
+
       <div className="faq-section__button-wrapper">
         {faqData?.buttons?.map((button, index) => (
           <Button
