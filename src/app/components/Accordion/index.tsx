@@ -8,7 +8,7 @@ type Props = {
     description1: string;
     description2: string;
   };
-  currentActive: string;
+  currentActive: string | null;
   clickEvent: (val: string) => void;
 };
 

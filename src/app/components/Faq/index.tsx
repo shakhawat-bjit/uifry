@@ -31,19 +31,12 @@ type Props = {
 };
 
 export default function Faq({ faqData }: Props) {
-  const [active, setActive] = useState("0");
-
-  // const changeActive = (val: string) => {
-  //   // console.log(val, active);
-  //   if (active == val) {
-  //     setActive("0");
-  //     return;
-  //   }
-  //   setActive(val);
-  // };
+  const [active, setActive] = useState<string | null>(null);
 
   const toggleAccordion = (index: string) => {
-    setActive((prevIndex: string) => (prevIndex === index ? "a" : index));
+    setActive((prevIndex: string | null) =>
+      prevIndex === index ? null : index
+    );
   };
 
   return (
