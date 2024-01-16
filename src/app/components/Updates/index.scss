@@ -12,6 +12,12 @@
   text-align: center;
 }
 
+.update-section__image-wrapper {
+  text-align: center;
+  display: none;
+  margin-bottom: 12.5px;
+}
+
 .update-section__title__heading {
   font-family: $plus-jakarta-sans;
   font-size: 38px;
@@ -21,7 +27,7 @@
 }
 
 .update-section__title__description {
-  font-family: Inter;
+  font-family: $inter;
   font-size: 16px;
   font-weight: 400;
   line-height: 28px;
@@ -34,4 +40,30 @@
   display: grid;
   gap: 20px;
   grid-template-columns: repeat(3, 1fr);
+}
+
+.update-section__post-slider {
+  display: none;
+}
+
+@media screen and (max-width: 428px) {
+  .update-section {
+    margin-top: 116px;
+    max-width: 383px;
+  }
+  .update-section__image-wrapper {
+    display: block;
+    margin-bottom: 42.5px;
+  }
+
+  .update-section__post-wrapper {
+    display: none;
+  }
+
+  .update-section__post-slider {
+    display: block;
+    max-width: 382px;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }

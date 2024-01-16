@@ -31,3 +31,23 @@
   line-height: 28px;
   color: $color-white;
 }
+
+.feature-list-section__feature__button:hover {
+  background-color: $color-lavender-blue;
+}
+
+@media screen and (max-width: 428px) {
+  .feature-list-section {
+    max-width: 386px;
+    margin-top: 76px;
+    padding-top: 62px;
+    padding-bottom: 93px;
+  }
+
+  .feature-list-section__feature-wrapper {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+  }
+}

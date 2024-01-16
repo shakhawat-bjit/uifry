@@ -9,13 +9,14 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  align-items: center;
+  gap: 111.5px;
 }
 
-// @media screen and (max-width: 428px) {
-//   .feature {
-//     margin-top: 85px;
-//     margin-left: 20px;
-//     margin-right: 20px;
-//     flex-direction: column-reverse;
-//   }
-// }
+@media screen and (max-width: 428px) {
+  .feature-section {
+    max-width: 388px;
+    flex-direction: column-reverse;
+    gap: 16px;
+  }
+}

@@ -4,13 +4,21 @@ import "./index.scss";
 type Props = {
   className?: string;
   children: React.ReactNode;
-  clickEvent: any;
+  clickEvent?: () => void;
+  size: "small" | "medium" | "large";
 };
 
-export default function Button({ className, children, clickEvent }: Props) {
-  // console.log(clickEvent);
+export default function Button({
+  className,
+  children,
+  clickEvent,
+  size,
+}: Props) {
   return (
-    <button className={`${className} button-design  `} onClick={clickEvent}>
+    <button
+      className={`button button--${size}  ${className}`}
+      onClick={clickEvent}
+    >
       {children}
     </button>
   );

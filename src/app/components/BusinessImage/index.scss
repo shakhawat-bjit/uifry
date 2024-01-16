@@ -1,13 +1,11 @@
 @use "../../styles/index.scss" as *;
 
-.business-image__box {
-  width: 475px;
-  height: 528px;
-  border-radius: 5px;
-  background-color: $color-lavender-gray;
-  position: relative;
+.business-section__image {
+  max-width: 574px;
 }
 
-.business-image__picture {
-  max-width: 574px;
+@media screen and (max-width: 428px) {
+  .business-section__image {
+    width: 100%;
+  }
 }

@@ -1,14 +1,17 @@
 import React from "react";
 import "./index.scss";
-import user from "../../../../public/assets/images/group/image-1.png";
 import Image from "next/image";
-type Props = {};
 
-export default function BannerImage({}: Props) {
+type Props = {
+  bannerImageData: string;
+};
+
+export default function BannerImage({ bannerImageData }: Props) {
+  console.log(bannerImageData);
   return (
     <div className="banner-section__image-wrapper">
       <Image
-        src={user.src}
+        src={bannerImageData}
         width={787}
         height={608}
         alt="user image"

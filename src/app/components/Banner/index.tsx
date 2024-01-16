@@ -1,17 +1,36 @@
 "use client";
-
 import React from "react";
 import "./index.scss";
 import BannerImage from "../BannerImage";
 import BannerContent from "../BannerContent";
 
-type Props = {};
+export type banner = {
+  heading: string;
+  description: string;
+  buttons: {
+    link: string;
+    content: string;
+    image?: string;
+    imageAlt?: string;
+    class: string;
+    size: "small" | "medium" | "large";
+  }[];
+  reviews: number;
+  ratings: number;
+  image: string;
+};
 
-export default function Banner({}: Props) {
+type Props = {
+  bannerData: banner;
+};
+
+export default function Banner({ bannerData }: Props) {
+  const { image, ...content } = bannerData;
+
   return (
     <div className="banner-section">
-      <BannerContent />
-      <BannerImage />
+      <BannerContent bannerContentData={content} />
+      <BannerImage bannerImageData={image} />
     </div>
   );
 }

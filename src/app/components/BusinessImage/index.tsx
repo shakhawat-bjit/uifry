@@ -1,18 +1,20 @@
 import Image from "next/image";
 import React from "react";
 import "./index.scss";
-import user from "../../../../public/assets/images/group/image-4.png";
-type Props = {};
 
-export default function BusinessImage({}: Props) {
+type Props = {
+  businessImageData: string;
+};
+
+export default function BusinessImage({ businessImageData }: Props) {
   return (
-    <div className="business-image">
+    <div className="business-section__image-container">
       <Image
-        src={user.src}
+        src={businessImageData}
         height={574}
         width={604}
         alt="user image"
-        className="business-image__picture"
+        className="business-section__image"
       />
     </div>
   );
