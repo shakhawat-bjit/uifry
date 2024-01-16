@@ -13,7 +13,6 @@ type Props = {
 };
 
 export default function Accordion({ data, currentActive, clickEvent }: Props) {
-  // console.log("inside accordion ", data?.id, currentActive);
   return (
     <div className="accordion">
       <div
@@ -23,26 +22,24 @@ export default function Accordion({ data, currentActive, clickEvent }: Props) {
         onClick={() => clickEvent(data?.id)}
       >
         <p
-          className={`accordion__title__text  ${
-            currentActive == data?.id && "accordion__title__text--active"
-          } `}
+          className={`accordion__title 
+          ${currentActive === data?.id ? "open" : " "}
+          `}
         >
           {data?.title}
         </p>
         <div
-          className={`accordion__title__icon  ${
-            currentActive == data?.id ? " text-white" : " "
-          } `}
+          className={`accordion__title__icon  
+          ${currentActive === data?.id ? "open" : " "}
+          `}
         >
           {currentActive == data?.id ? "-" : "+"}
         </div>
       </div>
       <div
-        className={`accordion__body  ${
-          currentActive == data?.id
-            ? " accordion__body--show  "
-            : " accordion__body--hide "
-        } `}
+        className={`accordion__body  
+        ${currentActive === data?.id ? "open" : ""}
+        `}
       >
         <p className="accordion__body_text">
           {data?.description1}
