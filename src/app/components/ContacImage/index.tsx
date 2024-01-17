@@ -8,7 +8,7 @@ type Props = {
 
 export default function ContactImage({ contactImageData }: Props) {
   return (
-    <div className="contact-section-image-wrapper">
+    <div className="contact-section__image-wrapper">
       <Image
         src={contactImageData}
         width={679}

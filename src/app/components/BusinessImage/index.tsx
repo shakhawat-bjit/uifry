@@ -8,7 +8,7 @@ type Props = {
 
 export default function BusinessImage({ businessImageData }: Props) {
   return (
-    <div className="business-section__image-container">
+    <div className="business-section__image-wrapper">
       <Image
         src={businessImageData}
         height={574}

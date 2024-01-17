@@ -80,6 +80,12 @@
   }
 }
 
+@media screen and (max-width: 1024px) {
+  .footer-section {
+    max-width: 768px;
+  }
+}
+
 @media screen and (max-width: 768px) {
   .footer-section {
     max-width: 388px;

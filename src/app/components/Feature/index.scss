@@ -23,10 +23,10 @@
 @media screen and (max-width: 1024px) {
   .feature-section {
     max-width: 768px;
-    gap: 16px;
   }
 }
-@media screen and (max-width: 728px) {
+
+@media screen and (max-width: 768px) {
   .feature-section {
     max-width: 567px;
     flex-direction: column-reverse;

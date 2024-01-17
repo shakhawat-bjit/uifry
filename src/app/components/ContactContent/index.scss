@@ -31,7 +31,7 @@
   margin-top: 40px;
 }
 .contact-section__content__form__input-wrapper {
-  max-width: 447px;
+  // max-width: 447px;
   box-sizing: border-box;
 
   padding: 16px 103px 16px 16px;
@@ -74,9 +74,12 @@
   }
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 768px) {
   .contact-section__content {
     width: 100%;
+  }
+  .contact-section__content__form__button-wrapper {
+    margin-right: 0px;
   }
 }
 

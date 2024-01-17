@@ -60,12 +60,7 @@
 @media screen and (max-width: 768px) {
   .update-section {
     width: 567px;
-  }
-}
-
-@media screen and (max-width: 567px) {
-  .update-section {
-    width: 428px;
+    margin-top: 116px;
   }
   .update-section__post-wrapper {
     display: none;
@@ -74,22 +69,22 @@
   .update-section__post-slider {
     display: block;
     max-width: 428px;
-    margin-left: auto;
-    margin-right: auto;
+  }
+}
+
+@media screen and (max-width: 567px) {
+  .update-section {
+    width: 428px;
   }
 }
 
 @media screen and (max-width: 428px) {
-  .update-section {
-    margin-top: 116px;
-    max-width: 383px;
-  }
   .update-section__image-wrapper {
     display: block;
     margin-bottom: 42.5px;
   }
 
   .update-section__post-slider {
-    max-width: 382px;
+    max-width: 383px;
   }
 }
