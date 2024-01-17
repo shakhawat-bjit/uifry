@@ -14,7 +14,8 @@ export type business = {
     class: string;
     size: "small" | "medium" | "large";
   }[];
-  features: string[];
+  projectCount: number;
+  clientCount: number;
 
   image: string;
 };

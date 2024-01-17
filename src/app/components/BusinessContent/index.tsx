@@ -17,7 +17,8 @@ type businessContent = {
     class: string;
     size: "small" | "medium" | "large";
   }[];
-  features: string[];
+  projectCount: number;
+  clientCount: number;
 };
 
 type Props = {
@@ -34,20 +35,44 @@ export default function BusinessContent({ businessContentData }: Props) {
         {businessContentData?.description}
       </p>
       <div className="business-section__content__feature-wrapper">
-        {businessContentData?.features?.map((feature, index) => (
-          <div key={index} className="business-section__content__feature">
-            <Button
-              size="small"
-              clickEvent={() => console.log("hi")}
-              className="bg-bride-blush"
-            >
-              <Image src={tick.src} height={24} width={24} alt=">" />
-            </Button>
-            <span className="business-section__content__feature__title">
-              {feature}
-            </span>
-          </div>
-        ))}
+        <div className="business-section__content__feature">
+          <Button
+            size="small"
+            clickEvent={() => console.log("hi")}
+            className="bg-bride-blush"
+          >
+            <Image src={tick.src} height={24} width={24} alt=">" />
+          </Button>
+          <span className="business-section__content__feature__title">
+            <p>
+              <span className="business-section__content__feature__title__count">
+                {" "}
+                {businessContentData?.projectCount}+
+              </span>
+              <br />
+              Successfull Projects{" "}
+            </p>
+          </span>
+        </div>
+        <div className="business-section__content__feature">
+          <Button
+            size="small"
+            // clickEvent={() => console.log("hi")}
+            className="bg-bride-blush"
+          >
+            <Image src={tick.src} height={24} width={24} alt=">" />
+          </Button>
+          <span className="business-section__content__feature__title">
+            <p>
+              <span className="business-section__content__feature__title__count">
+                {" "}
+                {businessContentData?.clientCount}+{" "}
+              </span>
+              <br />
+              Clients Today{" "}
+            </p>
+          </span>
+        </div>
       </div>
       <div className="business-section__content__button-wrapper">
         {businessContentData?.buttons?.map((button, index) => (

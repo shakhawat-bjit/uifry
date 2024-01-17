@@ -14,7 +14,7 @@ const buttons = [
     class: "bg-white  border-bride-blush ",
     size: "small" as "small" | "medium" | "large",
     image: "/assets/icons/icon/ArrowRight.png",
-    imageAlt:">"
+    imageAlt: ">",
   },
   {
     link: "/",
@@ -24,10 +24,8 @@ const buttons = [
   },
 ];
 
-const features = [
-  "Super useful and easy to use interface",
-  "Easiest way to grow your business in days",
-];
+const projectCount = 100;
+const clientCount = 978;
 
 const image = "/assets/images/group/image-4.png";
 
@@ -37,7 +35,7 @@ export const businessData: business = {
     "Launch a business today with our help and get it done with amazing launch features, websites and more with uifry. We help business like yours thrive every day and beyond.",
   buttons: buttons,
 
-  features:features,
+  projectCount: projectCount,
+  clientCount: clientCount,
   image: image,
-
 };
