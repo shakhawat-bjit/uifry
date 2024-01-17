@@ -7,7 +7,7 @@ type Props = {
 };
 
 export default function BannerImage({ bannerImageData }: Props) {
-  console.log(bannerImageData);
+  // console.log(bannerImageData);
   return (
     <div className="banner-section__image-wrapper">
       <Image
