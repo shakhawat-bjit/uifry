@@ -58,3 +58,21 @@
 .business-section__content__feature__title__count {
   font-size: 24px;
 }
+
+@media screen and (max-width: 1024px) {
+  .business-section__content {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  .business-section__content {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .business-section__content {
+    width: 100%;
+  }
+}

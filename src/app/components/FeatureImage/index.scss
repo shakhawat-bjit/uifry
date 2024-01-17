@@ -1,7 +1,23 @@
 @use "../../styles/index.scss" as *;
 
-.feature-section_image {
-  width: 562.12px;
+@media screen and (max-width: 1280px) {
+  .feature-section__image-wrapper {
+    width: 50%;
+  }
+  .feature-section__image {
+    width: 100%;
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .feature-section__image-wrapper {
+    width: 100%;
+  }
+  .feature-section__image {
+    width: 100%;
+    height: auto;
+  }
 }
 
 @media screen and (max-width: 428px) {

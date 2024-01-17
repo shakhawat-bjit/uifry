@@ -32,10 +32,10 @@
   font-weight: 700;
   font-size: 14px;
   height: 17.64px;
-}
 
-.footer__link:last-child {
-  margin-right: 0px;
+  &:last-child {
+    margin-right: 0px;
+  }
 }
 
 .footer-section__divider {
@@ -74,7 +74,13 @@
   display: none;
 }
 
-@media screen and (max-width: 428px) {
+@media screen and (max-width: 1280px) {
+  .footer-section {
+    max-width: 1024px;
+  }
+}
+
+@media screen and (max-width: 768px) {
   .footer-section {
     max-width: 388px;
   }

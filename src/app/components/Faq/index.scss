@@ -51,6 +51,30 @@
   }
 }
 
+@media screen and (max-width: 1280px) {
+  .faq-section {
+    max-width: 1024px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .faq-section {
+    max-width: 768px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .faq-section {
+    max-width: 567px;
+  }
+}
+
+@media screen and (max-width: 567px) {
+  .faq-section {
+    max-width: 428px;
+  }
+}
+
 @media screen and (max-width: 428px) {
   .faq-section {
     max-width: 388px;

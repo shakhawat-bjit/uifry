@@ -49,7 +49,10 @@
   margin-left: 20px;
 }
 
-@media screen and (max-width: 428px) {
+@media screen and (max-width: 1280px) {
+  .banner-section__content {
+    width: 50%;
+  }
   .banner-section__heading {
     font-size: 38px;
     line-height: 45.6px;
@@ -57,4 +60,20 @@
   .banner-section__description {
     margin-right: 0px;
   }
+}
+
+@media screen and (max-width: 768px) {
+  .banner-section__content {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 428px) {
+  // .banner-section__heading {
+  //   font-size: 38px;
+  //   line-height: 45.6px;
+  // }
+  // .banner-section__description {
+  //   margin-right: 0px;
+  // }
 }

@@ -4,6 +4,32 @@
   max-width: 574px;
 }
 
+@media screen and (max-width: 1280px) {
+  .business-section__image-wrapper {
+    width: 50%;
+  }
+  .business-section__image {
+    width: 100%;
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .business-section__image-wrapper {
+    width: 50%;
+  }
+  .business-section__image {
+    width: 100%;
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .business-section__image-wrapper {
+    width: 100%;
+  }
+}
+
 @media screen and (max-width: 428px) {
   .business-section__image {
     width: 100%;

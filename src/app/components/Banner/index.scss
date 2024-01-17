@@ -10,10 +10,34 @@
   align-items: center;
 }
 
+@media screen and (max-width: 1280px) {
+  .banner-section {
+    max-width: 1024px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .banner-section {
+    max-width: 768px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .banner-section {
+    max-width: 567px;
+    flex-direction: column;
+    gap: 60px;
+  }
+}
+
+@media screen and (max-width: 567px) {
+  .banner-section {
+    max-width: 480px;
+  }
+}
+
 @media screen and (max-width: 428px) {
   .banner-section {
     max-width: 388px;
-    flex-direction: column;
-    gap: 60px;
   }
 }

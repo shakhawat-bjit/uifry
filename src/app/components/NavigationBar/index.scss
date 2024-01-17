@@ -62,11 +62,22 @@
   display: none;
 }
 
-@media screen and (max-width: 428px) {
+@media screen and (max-width: 1280px) {
   .navbar__body {
-    max-width: 388px;
+    max-width: 1024px;
   }
+}
 
+@media screen and (max-width: 1024px) {
+  .navbar__body {
+    max-width: 768px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .navbar__body {
+    max-width: 567px;
+  }
   .navbar__body__link-wrapper {
     display: none;
   }
@@ -77,5 +88,17 @@
 
   .navbar__body__responsive-button {
     display: block;
+  }
+}
+
+@media screen and (max-width: 567px) {
+  .navbar__body {
+    max-width: 428px;
+  }
+}
+
+@media screen and (max-width: 428px) {
+  .navbar__body {
+    max-width: 388px;
   }
 }

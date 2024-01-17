@@ -72,7 +72,16 @@
   max-height: 1000px; /* Adjust as needed based on your content height */
 }
 
-@media screen and (max-width: 428px) {
+@media screen and (max-width: 768px) {
+  .accordion__title {
+    padding: 25px 17px 28px 17px;
+  }
+  .accordion__title__text {
+    max-width: 272px;
+  }
+}
+
+@media screen and (max-width: 567px) {
   .accordion__title {
     padding: 25px 17px 28px 17px;
   }

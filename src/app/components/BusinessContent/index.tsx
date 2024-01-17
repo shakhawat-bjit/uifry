@@ -4,7 +4,6 @@ import Button from "../Button";
 import Image from "next/image";
 import tick from "../../../../public/assets/icons/icon/TickSquare.png";
 import "./index.scss";
-import arrow from "../../../../public/assets/icons/icon/ArrowRight.png";
 
 type businessContent = {
   heading: string;

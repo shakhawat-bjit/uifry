@@ -8,7 +8,7 @@ type Props = {
 
 export default function FeatureImage({ featureImageData }: Props) {
   return (
-    <div className="feature-section_image-wrapper">
+    <div className="feature-section__image-wrapper">
       <Image
         src={featureImageData}
         width={532}
