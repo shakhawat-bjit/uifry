@@ -51,10 +51,10 @@
   }
 }
 
-@media screen and (max-width: 1024px) {
-  // .feature-section__content {
-  //   width: 50%;
-  // }
+@media screen and (max-width: 768px) {
+  .feature-section__content {
+    width: 100%;
+  }
 }
 
 @media screen and (max-width: 428px) {
