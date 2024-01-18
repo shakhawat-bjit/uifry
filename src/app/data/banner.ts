@@ -2,21 +2,21 @@ import { banner } from "../components/Banner";
 
 const buttons = [
   {
-    link: "/",
+    link: "#",
     content: "Contact Now",
     class: "text-midnight-blue bg-bride-blush ",
     size: "medium" as "small" | "medium" | "large",
   },
   {
-    link: "/",
+    link: "#",
     content: "",
     class: "bg-white  border-bride-blush ",
     size: "small" as "small" | "medium" | "large",
     image: "/assets/icons/icon/ArrowRight.png",
-    imageAlt:">"
+    imageAlt: ">",
   },
   {
-    link: "/",
+    link: "#",
     content: "Book A Demo Today",
     class: "bg-white text-midnight-blue padding-x-zero",
     size: "medium" as "small" | "medium" | "large",

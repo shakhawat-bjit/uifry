@@ -17,20 +17,20 @@ const formInputs = [
 
 const buttons = [
   {
-    link: "/",
+    link: "#",
     content: "Contact Now",
     class: "text-midnight-blue bg-bride-blush ",
     size: "medium" as "small" | "medium" | "large",
   },
   {
-    link: "/",
+    link: "#",
     content: "",
     class: "bg-white  border-bride-blush ",
     size: "small" as "small" | "medium" | "large",
     image: "/assets/icons/icon/ArrowRight.png",
   },
   {
-    link: "/",
+    link: "#",
     content: "Book A Demo Today",
     class: "bg-white text-midnight-blue padding-x-zero",
     size: "medium" as "small" | "medium" | "large",
@@ -47,7 +47,7 @@ export const contactData: contact = {
   buttons: buttons,
   formInputs: formInputs,
   submitButton: {
-    link: "/",
+    link: "#",
     content: "Contact Now",
     class: "bg-bride-blush  text-midnight-blue ",
     size: "large" as "small" | "medium" | "large",

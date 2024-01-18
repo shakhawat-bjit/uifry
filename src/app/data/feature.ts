@@ -16,7 +16,7 @@ export const featureData: feature = {
   image: image,
 
   button: {
-    link: "/",
+    link: "#",
     content: "Contact Now",
     class: "bg-bride-blush text-midnight-blue ",
     size: "medium" as "small" | "medium" | "large",

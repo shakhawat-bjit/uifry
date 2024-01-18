@@ -3,20 +3,20 @@ import { navigationBar } from "../components/NavigationBar";
 const title = "This is an announcement tagline for you to insert";
 
 const navLinks = [
-  { link: "/home", content: "Home" },
-  { link: "/about", content: "About" },
-  { link: "/pricing", content: "Pricing" },
-  { link: "/blog", content: "Blog" },
+  { link: "#", content: "Home" },
+  { link: "#", content: "About" },
+  { link: "#", content: "Pricing" },
+  { link: "#", content: "Blog" },
 ];
 
 const logo = {
-  link: "/",
+  link: "#",
   imageSrc: "/assets/images/logo.png",
 };
 
 const buttons = [
   {
-    link: "/",
+    link: "#",
     content: "Contact Now",
     class: "bg-bride-blush text-midnight-blue ",
     size: "small" as "small" | "medium" | "large",

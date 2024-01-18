@@ -4,7 +4,7 @@ export const featuresListData: features = {
   featureList: [
     {
       button: {
-        link: "/",
+        link: "#",
         content: "",
         class: "bg-bride-blush  ",
         size: "small" as "small" | "medium" | "large",
@@ -15,7 +15,7 @@ export const featuresListData: features = {
     },
     {
       button: {
-        link: "/",
+        link: "#",
         content: "",
         class: "bg-pale-yellow ",
         size: "small" as "small" | "medium" | "large",
@@ -26,7 +26,7 @@ export const featuresListData: features = {
     },
     {
       button: {
-        link: "/",
+        link: "#",
         content: "",
         class: "bg-lavender-blue ",
         size: "small" as "small" | "medium" | "large",

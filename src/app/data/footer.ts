@@ -1,16 +1,16 @@
 import { footer } from "../components/Footer";
 
 const logo = {
-  link: "/",
+  link: "#",
   imageSrc: "/assets/images/logo.png",
 };
 
 const navLinks = [
-  { link: "/home", content: "Home" },
-  { link: "/about", content: "About" },
-  { link: "/pricing", content: "Pricing" },
-  { link: "/blog", content: "Blog" },
-  { link: "/contact", content: "Contact" },
+  { link: "#", content: "Home" },
+  { link: "#", content: "About" },
+  { link: "#", content: "Pricing" },
+  { link: "#", content: "Blog" },
+  { link: "#", content: "Contact" },
 ];
 
 const copyright =
@@ -18,28 +18,28 @@ const copyright =
 
 const socialLinks = [
   {
-    link: "/instagram",
+    link: "#",
     image: "/assets/icons/social/instagram.png",
     imageAlt: "instagram",
   },
 
   {
-    link: "/flickr",
+    link: "#",
     image: "/assets/icons/social/flickr.png",
     imageAlt: "flickr",
   },
   {
-    link: "/instagram",
+    link: "#",
     image: "/assets/icons/social/instagram.png",
     imageAlt: "instagram",
   },
   {
-    link: "/pinterest",
+    link: "#",
     image: "/assets/icons/social/pinterest.png",
     imageAlt: "pinterest",
   },
   {
-    link: "/twitter",
+    link: "#",
     image: "/assets/icons/social/twitter.png",
     imageAlt: "twitter",
   },
