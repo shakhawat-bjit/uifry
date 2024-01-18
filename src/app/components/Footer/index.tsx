@@ -44,9 +44,9 @@ export default function Footer({ footerData }: Props) {
           <div className="footer-section__heading-content__link-wrapper">
             {footerData?.links?.map((link, index) => (
               <Link
-                href="/d"
+                href={link?.link}
                 className="footer-section__heading__link"
-                key={link?.content}
+                key={index}
               >
                 {link?.content}
               </Link>
