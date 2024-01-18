@@ -81,10 +81,6 @@
 
     flex-direction: column;
     align-items: start;
-
-    border-right: none;
-    border-top-right-radius: 0px;
-    border-bottom-right-radius: 0px;
   }
   .client-section {
     margin-top: 51px;
@@ -98,6 +94,12 @@
 }
 
 @media screen and (max-width: 428px) {
+  .client-section {
+    border-right: none;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+  }
+
   .client-section_title {
     font-size: 18px;
     font-weight: 700;
