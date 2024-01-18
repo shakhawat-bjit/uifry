@@ -4,19 +4,21 @@
   font-family: $plus-jakarta-sans;
 }
 
-.navbar__head__title {
+.navbar__head {
   background-color: $color-sage-violet;
+  padding-top: 13px;
+  padding-bottom: 12px;
+  border-top-right-radius: 50px;
+  border-top-left-radius: 50px;
+}
+
+.navbar__head__title {
   color: $color-white;
 
   font-size: 14px;
   font-weight: 700;
   line-height: 18px;
   text-align: center;
-
-  padding-top: 13px;
-  padding-bottom: 12px;
-  border-top-right-radius: 50px;
-  border-top-left-radius: 50px;
 }
 
 .navbar__body {
@@ -100,5 +102,10 @@
 @media screen and (max-width: 428px) {
   .navbar__body {
     max-width: 388px;
+  }
+  .navbar__head__title {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
   }
 }

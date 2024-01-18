@@ -48,18 +48,18 @@
 
 @media screen and (max-width: 1280px) {
   .update-section {
-    width: 1024px;
+    max-width: 1024px;
   }
 }
 @media screen and (max-width: 1024px) {
   .update-section {
-    width: 768px;
+    max-width: 768px;
   }
 }
 
 @media screen and (max-width: 768px) {
   .update-section {
-    width: 567px;
+    max-width: 567px;
     margin-top: 116px;
   }
   .update-section__post-wrapper {
@@ -74,11 +74,14 @@
 
 @media screen and (max-width: 567px) {
   .update-section {
-    width: 428px;
+    max-width: 428px;
   }
 }
 
 @media screen and (max-width: 428px) {
+  .update-section {
+    max-width: 388px;
+  }
   .update-section__image-wrapper {
     display: block;
     margin-bottom: 42.5px;
